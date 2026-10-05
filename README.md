@@ -6,25 +6,25 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 0.9.2
+## Baixar a versão mais nova: 0.9.3
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-0.9.2.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v0.9.2/SEI-GO-Setup-0.9.2.exe) | Instalador (já traz o Python) | 33 MB |
-| [SEI-GO-Manual-0.9.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v0.9.2/SEI-GO-Manual-0.9.2.pdf) | Manual do usuário, passo a passo com telas | 3 MB |
-| [SEI-GO-Manual-Tecnico-0.9.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v0.9.2/SEI-GO-Manual-Tecnico-0.9.2.pdf) | Manual técnico, para a TI | 622 KB |
+| [**SEI-GO-Setup-0.9.3.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v0.9.3/SEI-GO-Setup-0.9.3.exe) | Instalador (já traz o Python) | 33 MB |
+| [SEI-GO-Manual-0.9.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v0.9.3/SEI-GO-Manual-0.9.3.pdf) | Manual do usuário, passo a passo com telas | 3 MB |
+| [SEI-GO-Manual-Tecnico-0.9.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v0.9.3/SEI-GO-Manual-Tecnico-0.9.3.pdf) | Manual técnico, para a TI | 622 KB |
 
-**Novidades da 0.9.2 — Aviso de versão nova**
+**Novidades da 0.9.3 — Aviso de versão nova mais claro**
 
-- O painel e o Windows avisam quando sai uma versão nova do SEI-GO, com as novidades e o botão Baixar.
-- Menu do seu nome → Procurar atualização: confere na hora.
-- Página oficial de download com o instalador e os manuais de cada versão.
+- Botão Baixar destacado na faixa de versão nova.
+- Janela de novidades com o botão Ir para o download.
+- Manual do usuário com o capítulo Versão nova do SEI-GO.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-0.9.2.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-0.9.3.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -48,7 +48,7 @@ Para conferir a qualquer hora: menu do seu nome → **Procurar atualização**.
 - A senha do SEI é digitada no próprio painel e fica no cofre do Windows. Ninguém do suporte e nenhuma IA pede a sua senha.
 - O SEI-GO não baixa nem instala nada sozinho: o aviso de versão nova só traz você para esta página.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-0.9.2.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-0.9.3.exe -Algorithm SHA256`).
 
 ---
 
