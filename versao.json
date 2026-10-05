@@ -1,13 +1,13 @@
 {
-  "versao": "0.9.2",
+  "versao": "0.9.3",
   "data": "2026-10-05",
-  "titulo": "Aviso de versão nova",
+  "titulo": "Aviso de versão nova mais claro",
   "novidades": [
-    "O painel e o Windows avisam quando sai uma versão nova do SEI-GO, com as novidades e o botão Baixar.",
-    "Menu do seu nome → Procurar atualização: confere na hora.",
-    "Página oficial de download com o instalador e os manuais de cada versão."
+    "Botão Baixar destacado na faixa de versão nova.",
+    "Janela de novidades com o botão Ir para o download.",
+    "Manual do usuário com o capítulo Versão nova do SEI-GO."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v0.9.2",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.2/SEI-GO-Setup-0.9.2.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v0.9.3",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.3/SEI-GO-Setup-0.9.3.exe",
   "minima": ""
 }
