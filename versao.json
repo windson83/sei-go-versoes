@@ -1,21 +1,17 @@
 {
-  "versao": "0.9.9",
+  "versao": "0.9.10",
   "data": "2026-10-06",
-  "titulo": "Painel abre na hora",
+  "titulo": "Instalação no Windows 11 com Codex",
   "novidades": [
-    "Início e Caixa aparecem na hora com a última versão guardada e se atualizam sozinhos assim que o SEI responde.",
-    "Depois de reiniciar o computador ou atualizar o SEI-GO, a sessão do SEI é retomada sem novo login (até 10 horas).",
-    "Seus processos são reconhecidos pela coluna Atribuição: uma leitura a menos no SEI a cada abertura.",
-    "Tudo o que fica guardado é cifrado pelo Windows e só abre no seu usuário; ao sair do SEI, é apagado.",
-    "Correção: ao atualizar a Caixa de novo, alguns processos podiam faltar (a leitura recomeçava do meio)."
+    "Corrige o erro “WinError 448 … ponto de montagem não confiável” ao instalar ou atualizar em computadores com o Codex instalado: o instalador ignora pastas do PATH que o Windows bloqueia."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v0.9.9",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.9/SEI-GO-Setup-0.9.9.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v0.9.10",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.10/SEI-GO-Setup-0.9.10.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.9/SEI-GO-atualizacao-0.9.9.bin",
-  "pacote_sha256": "00af8e50da3f7927ef5699bddb19015a7f73fff315c17354e619220e99bacc64",
-  "assinado_em": "2026-10-06T13:42:10Z",
-  "assinatura": "dVYH7uyPEsTmF9FCveIJD2HaZ7MhQ5RbyjlHR29fSCyR3jO+HYvRW/30ldv1nmMdzw9Kv90T2FBuU6BpxdjkBg==",
-  "setup_sha256": "59d3049294c2fe63ffae329dc977e70dccf1ba9c521ae8b70ffb0697ee660ab2",
-  "assinatura_setup": "bEBNV3RmiQxXQGXf9KtKcCR0cr8xAh3En/iAaIoHyJC9UL93V7X3JPQDFZ7rrtI06da8fSHM3dz83x4xZfx8BA=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.10/SEI-GO-atualizacao-0.9.10.bin",
+  "pacote_sha256": "5f83a4edcddf1b0885b122e38e43a496e57c0ea46a896e1cb834d7d6798f23fc",
+  "assinado_em": "2026-10-06T13:52:32Z",
+  "assinatura": "ImkOAWqDHr6RjaRStuwEzI0vQONLms7vwxyf4J6sfTN6GZg7qeJ36ksUd7ypG2vyhJYoZ6b4CrJsBCdwUwtTCA==",
+  "setup_sha256": "a4abf2721615acce5223af7ddeef32f69bc8f65843588d96cc634da4781a2f03",
+  "assinatura_setup": "+cnJFaozOXhpfkJ78PxBfxyhWJvVimJvzqriK+aH1IqiV0Gi1VknA1mQBQOAu7jEBJueG7bVBxll/5vG3fKuCg=="
 }
