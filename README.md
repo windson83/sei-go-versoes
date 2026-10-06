@@ -6,27 +6,27 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.0.1
+## Baixar a versão mais nova: 1.0.2
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.0.1.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.1/SEI-GO-Setup-1.0.1.exe) | Instalador (já traz o Python) | 33 MB |
-| [SEI-GO-Manual-1.0.1.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.1/SEI-GO-Manual-1.0.1.pdf) | Manual do usuário, passo a passo com telas | 3 MB |
-| [SEI-GO-Manual-Tecnico-1.0.1.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.1/SEI-GO-Manual-Tecnico-1.0.1.pdf) | Manual técnico, para a TI | 702 KB |
+| [**SEI-GO-Setup-1.0.2.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.2/SEI-GO-Setup-1.0.2.exe) | Instalador (já traz o Python) | 34 MB |
+| [SEI-GO-Manual-1.0.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.2/SEI-GO-Manual-1.0.2.pdf) | Manual do usuário, passo a passo com telas | 4 MB |
+| [SEI-GO-Manual-Tecnico-1.0.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.2/SEI-GO-Manual-Tecnico-1.0.2.pdf) | Manual técnico, para a TI | 719 KB |
 
-**Novidades da 1.0.1 — Resumos com ou sem IA, à sua escolha**
+**Novidades da 1.0.2 — Ciência, atribuição e últimos passos sem sair do painel**
 
-- Ao gerar o resumo do dia ou o resumo semanal, escolha: com IA automático, com uma IA específica (Claude Code, Codex ou Antigravity) ou sem IA.
-- O resumo semanal com IA ganha uma análise da semana no começo do PDF: pontos de atenção, equipe e recomendações.
-- Se a IA escolhida falhar (sem crédito, limite de uso, login), o SEI-GO tenta as outras instaladas; só se nenhuma responder o resumo sai sem IA, com o motivo de cada uma.
-- IA que ficou sem crédito ou limite fica 30 minutos de fora, para não perder tempo tentando de novo.
-- Pedidos ao Claude Code mais leves: deixam de levar a lista de skills e plugins instalados.
+- Botões Dar ciência e Atribuir no processo aberto (os mesmos do SEI), com confirmação.
+- A próxima ação sugerida virou botão: “Abrir e dar ciência” abre e pergunta; “Atribuir a alguém da equipe” abre a lista da equipe.
+- Ao abrir um processo: os 5 últimos andamentos, com quem ele está e a próxima ação.
+- Pela IA também: “dê ciência no processo X”, “atribua o processo X para a Maria” — sempre confirmado no painel.
+- Logins que são CPF aparecem mascarados no histórico e na lista da equipe.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.0.1.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.0.2.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -56,7 +56,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.0.1.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.0.2.exe -Algorithm SHA256`).
 
 ---
 
