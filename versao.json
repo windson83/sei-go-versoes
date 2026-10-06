@@ -1,20 +1,18 @@
 {
-  "versao": "0.9.7",
+  "versao": "0.9.8",
   "data": "2026-10-06",
-  "titulo": "Menu recolhível e carregamento mais rápido",
+  "titulo": "Instalador mais robusto",
   "novidades": [
-    "Menu lateral recolhível: o botão Recolher menu deixa só os ícones e amplia a área de trabalho (o painel lembra a escolha).",
-    "Ao abrir o painel, Início e Caixa usam um único login e uma única leitura da caixa: a primeira carga ficou cerca de duas vezes mais rápida.",
-    "Fim do erro “client has been closed” ao entrar de novo ou trocar de usuário com telas ainda carregando.",
-    "Registro de erros com data e hora e tamanho limitado."
+    "Instalar por cima de uma versão antiga (como a 0.9.0) não para mais com “código 1”: o instalador fecha o SEI-GO aberto e, se preciso, refaz o ambiente do programa.",
+    "Se algo der errado, a mensagem verdadeira aparece no registro da instalação."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v0.9.7",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.7/SEI-GO-Setup-0.9.7.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v0.9.8",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.8/SEI-GO-Setup-0.9.8.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.7/SEI-GO-atualizacao-0.9.7.bin",
-  "pacote_sha256": "34c650e35fee3787e536be916c8a5665ed11ca557d5e4e1bbd4ce0d2784784f9",
-  "assinado_em": "2026-10-06T13:23:46Z",
-  "assinatura": "51Sz5k5dMbBZvJDWuB+kkC/8ajFxoCBlsB/h/jH2dkehEbDvssTrCvmZh36QKXZgCwaS7j/oAMx/95/pSeeADA==",
-  "setup_sha256": "8048137edc48c3203aa425909bbe54c9a5d645ab0d1bdcb80a78f49d860fecbd",
-  "assinatura_setup": "c7dVLTjTZFlDilKTBcHav9q308wpCi2WN5KsZ3JtaIfsQox7KQZH2f+TnqFH59jOk/ACKEQgQqtVu99RWeybCA=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.8/SEI-GO-atualizacao-0.9.8.bin",
+  "pacote_sha256": "e22e373e8324b8f8d1f824203e02824a0bb36b3fae8cad43147dee49f0b482f8",
+  "assinado_em": "2026-10-06T13:29:46Z",
+  "assinatura": "kpOWZuYijG4qsKz7tqpJ3iUvZc9hWGQDgB2MceVMp/uNCNbB0uZYk2Iv+bDHOk+kQh5dz1oPsJCMLXfXPTcvBA==",
+  "setup_sha256": "d5d50f562b5b8ef7ed74237a77442c1a792c76da95ec8c1c7916ae23ae39fe21",
+  "assinatura_setup": "kjOs/HnYncaNU9CFvli5KWFKZZIRpRt/Xu/2jAatNQhUmImAWmZXqTbQKxdJNrFe9zMsl9U6D4XbhzzQ08JQBg=="
 }
