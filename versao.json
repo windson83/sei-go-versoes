@@ -1,23 +1,25 @@
 {
-  "versao": "1.0.6",
+  "versao": "1.1.0",
   "data": "2026-10-06",
-  "titulo": "PDF das Rotinas, Concluir corrigido e marcadores e anotação no processo",
+  "titulo": "Textos prontos, blocos de assinatura, novos marcadores e iniciar processo",
   "novidades": [
-    "O botão PDF das Rotinas com IA, do processo aberto e de Uso e produção voltou a funcionar (dava erro e não gerava nada).",
-    "Concluir na unidade: quando o SEI abre a tela de confirmação, o SEI-GO confirma por você. Só diz que concluiu se o histórico do SEI mostrar a conclusão; se não, avisa e o processo continua na caixa.",
-    "Cabeçalho do processo: mostra os marcadores (com o texto) e a anotação da unidade. Clique neles para alterar.",
-    "Falhas ao gravar pelo painel ficam registradas no erros.log, para facilitar o suporte.",
-    "O botão Instalar tudo que falta, em Instalação e requisitos, volta a ficar travado enquanto instala."
+    "Textos prontos no Redigir (e em Mais ações → Responder com texto pronto): os Textos Padrão e os Favoritos da unidade no SEI. Veja o texto, use no editor (para ajustar ou pedir à IA) ou crie o documento direto com ele.",
+    "Criar Texto Padrão novo pelo painel, inclusive a partir do texto que está no editor (Salvar como texto padrão).",
+    "Blocos de assinatura: nova tela com os blocos recebidos e gerados, os documentos de cada bloco, quem já assinou e as anotações. Aviso no Windows quando chega bloco novo para a unidade. A assinatura continua no SEI.",
+    "Criar marcador novo para a unidade, direto na janela do Marcador (nome, cor e descrição).",
+    "Iniciar processo pelo painel: tipo (com busca entre todos), especificação, assuntos, interessados, observações e nível de acesso.",
+    "Pela IA: consultar textos padrão, favoritos e blocos de assinatura, e criar documento já com um texto padrão ou favorito (sempre confirmado no painel).",
+    "Documento restrito ou sigiloso: a hipótese legal agora é buscada no SEI quando a tela não a traz pronta."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.0.6",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.6/SEI-GO-Setup-1.0.6.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.1.0",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.1.0/SEI-GO-Setup-1.1.0.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.6/SEI-GO-atualizacao-1.0.6.bin",
-  "pacote_sha256": "4f90606eff1b8d6e24b5b12be7c0813e699db89b7804106908392fe52927968c",
-  "assinado_em": "2026-10-06T21:25:45Z",
-  "assinatura": "jQMZV3j5FLzpJQPR6RLJCwxlRAZCEIQuaMfzhviXuPtrIr0c/brf5fCkkOlIytSHDZM4EOlAypF1aH0TdZjLDA==",
-  "setup_sha256": "9390e2b7c80ef4d8a6783d4200f5408e1e65c27918a07e956fd36496fc648446",
-  "assinatura_setup": "3R+hqMT8QOoixS7CKRRJvLr5jp3PL/fo8nxQjRy+jeSX1jUNx30aK/vKFdr8hs4vhuvjdq3dQYKtRBG5QvG3Cg==",
-  "expira_em": "2027-01-04T21:25:45Z",
-  "assinatura_validade": "UTDS7mfBdpwSta4QtL8lsxMofgRm+LHy+nzSlwKWKjB7s/R3smEe3j0B7gCYEe6rx0Ec6QLTJdFD8xDJ2/CuDA=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.1.0/SEI-GO-atualizacao-1.1.0.bin",
+  "pacote_sha256": "a3a8b7d62b460b3c5d3cb5f9ea7b42628fcec8607985caaf77580bf5ad9f83aa",
+  "assinado_em": "2026-10-06T21:55:18Z",
+  "assinatura": "L+9UfKqenWD96jW7Oq+MhH724y5V54G8Yac8w9Inr3mP7gSq5qzCfDcj05JfJCWA1Vi6lw8cXwBbFSrnxMpTBA==",
+  "setup_sha256": "cb6b10e7d4511cf5a6dc8566b8823c91e667aeac9dff1b91a92c6c0ab4e82e9a",
+  "assinatura_setup": "1J+8ohWUPJUsXUhks8C/fZYLU7vEaEAo5OMyFj6PcVArwb+mQRK6Of89pdnTdBTP+SMVyKW8J1KpwKRcDyJECw==",
+  "expira_em": "2027-01-04T21:55:18Z",
+  "assinatura_validade": "xeysamQGWipRRKv0txWuRsd1CkNzkQuYUFPWOSsMRlizumgkoAwSLBfLh4ofhKjXdctG3h1zT/hcRsIVVJNyAw=="
 }
