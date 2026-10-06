@@ -1,17 +1,23 @@
 {
-  "versao": "0.9.10",
+  "versao": "1.0.0",
   "data": "2026-10-06",
-  "titulo": "Instalação no Windows 11 com Codex",
+  "titulo": "SEI-GO 1.0: você confirma o que a IA grava",
   "novidades": [
-    "Corrige o erro “WinError 448 … ponto de montagem não confiável” ao instalar ou atualizar em computadores com o Codex instalado: o instalador ignora pastas do PATH que o Windows bloqueia."
+    "Quando uma IA (Claude, Codex…) vai gravar no SEI, o painel mostra a prévia e só grava depois do seu clique em Gravar.",
+    "Próxima ação sugerida em cada processo da caixa (ex.: “Ler e responder o ofício”, “Parado há 45 dias”) e o botão Pedem ação.",
+    "Resumo semanal em PDF para a chefia, toda segunda-feira, e pelo botão na Gestão da unidade.",
+    "O aviso de versão nova passa a ter validade assinada: um aviso antigo não consegue esconder uma versão nova.",
+    "Correção: o cartão de distribuição voltou a aparecer no computador de quem publica (chave cifrada desde a 0.9.6)."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v0.9.10",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.10/SEI-GO-Setup-0.9.10.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.0.0",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.0/SEI-GO-Setup-1.0.0.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.10/SEI-GO-atualizacao-0.9.10.bin",
-  "pacote_sha256": "5f83a4edcddf1b0885b122e38e43a496e57c0ea46a896e1cb834d7d6798f23fc",
-  "assinado_em": "2026-10-06T13:52:32Z",
-  "assinatura": "ImkOAWqDHr6RjaRStuwEzI0vQONLms7vwxyf4J6sfTN6GZg7qeJ36ksUd7ypG2vyhJYoZ6b4CrJsBCdwUwtTCA==",
-  "setup_sha256": "a4abf2721615acce5223af7ddeef32f69bc8f65843588d96cc634da4781a2f03",
-  "assinatura_setup": "+cnJFaozOXhpfkJ78PxBfxyhWJvVimJvzqriK+aH1IqiV0Gi1VknA1mQBQOAu7jEBJueG7bVBxll/5vG3fKuCg=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.0/SEI-GO-atualizacao-1.0.0.bin",
+  "pacote_sha256": "6bf65156a8b8622f2375c47247f14112d6af7c6c9ad73f0a36f0b6964a15b117",
+  "assinado_em": "2026-10-06T15:08:28Z",
+  "assinatura": "d7s3gGFEElq991wEVGriioMfFS6miqzVeqGlAiY1uRxUPRXipyu2dG51hrtXhUZl/Sg5zvGgmt6jtp7kHtE/Dg==",
+  "setup_sha256": "bb14e8d4c939eab35ceb6802191cd90a2e24eb4c0e79fcf841daf55c1c9fa52e",
+  "assinatura_setup": "b9E4mE9aCcXQsqNY9m/REMM3MM85h/4sG/25gVBiUneIxeS5m5X8exQDQd6+fBzxuqvdkBfT4dtK3KW1rgttCQ==",
+  "expira_em": "2027-01-04T15:08:29Z",
+  "assinatura_validade": "kLICgPPp1ADz7HN2buQuzSaKADekH1P4DpZghCUkZ8Onx4jgUxaoYR2fsWIABsQa8OgNb48rQsuGsAHr3TPGDA=="
 }
