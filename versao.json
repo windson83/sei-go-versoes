@@ -1,23 +1,23 @@
 {
-  "versao": "1.0.5",
+  "versao": "1.0.6",
   "data": "2026-10-06",
-  "titulo": "Você vê e escolhe as skills que a IA usa",
+  "titulo": "PDF das Rotinas, Concluir corrigido e marcadores e anotação no processo",
   "novidades": [
-    "Toda resposta com IA (assistente, Redigir com IA e Analisar com IA) mostra qual skill foi usada, e se foi escolhida por você ou automaticamente.",
-    "Botão Skills nesses três lugares: em automático o SEI-GO escolhe pela sua pergunta; ou marque uma ou mais skills (até 5) e só elas são usadas.",
-    "As skills criadas pela unidade (Criar minha skill) agora entram na escolha automática — antes o assistente só considerava as do SEI-GO.",
-    "Na tela Skills: quantas vezes cada skill foi usada nos últimos 30 dias e o botão Usar no assistente.",
-    "Claude Code, Codex e Antigravity passam a dizer no fim da resposta qual skill do SEI-GO seguiram (reinstale nas IAs em Skills → Instalar nas IAs)."
+    "O botão PDF das Rotinas com IA, do processo aberto e de Uso e produção voltou a funcionar (dava erro e não gerava nada).",
+    "Concluir na unidade: quando o SEI abre a tela de confirmação, o SEI-GO confirma por você. Só diz que concluiu se o histórico do SEI mostrar a conclusão; se não, avisa e o processo continua na caixa.",
+    "Cabeçalho do processo: mostra os marcadores (com o texto) e a anotação da unidade. Clique neles para alterar.",
+    "Falhas ao gravar pelo painel ficam registradas no erros.log, para facilitar o suporte.",
+    "O botão Instalar tudo que falta, em Instalação e requisitos, volta a ficar travado enquanto instala."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.0.5",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.5/SEI-GO-Setup-1.0.5.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.0.6",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.6/SEI-GO-Setup-1.0.6.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.5/SEI-GO-atualizacao-1.0.5.bin",
-  "pacote_sha256": "052301ac765e163cae5d13ad3e6d58eaf0eab90b7db4f7546959ff2fcbb4fe34",
-  "assinado_em": "2026-10-06T21:06:02Z",
-  "assinatura": "wD0kzRNqvXDcY2IQeNdI67IGNPBGjOTWWJY5OcdMqFyh2rukWpfGZA1dfUcbsvCONrwCGCAWuwpBgGqKBOSOAw==",
-  "setup_sha256": "156541977b6f175bb064c349a1d51fa54145bdac0a053f26488b1dd4b1eb7616",
-  "assinatura_setup": "nb2knoH0BpSCRY4w8L6fmrefQbeLGK3HQZJ8DVbW0udFrgbDhuIoDUNWRJsEq0tD9If5YWZymf8nY+/wzPBkDg==",
-  "expira_em": "2027-01-04T21:06:02Z",
-  "assinatura_validade": "RZLDzzrfnx5w9RpNx01djmJNlhHZdNQIkqgYlr+qChLYy4vMYHQV+4KALbHeA/fVeOxh9DMZkj8k3VWrcYIhCQ=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.6/SEI-GO-atualizacao-1.0.6.bin",
+  "pacote_sha256": "4f90606eff1b8d6e24b5b12be7c0813e699db89b7804106908392fe52927968c",
+  "assinado_em": "2026-10-06T21:25:45Z",
+  "assinatura": "jQMZV3j5FLzpJQPR6RLJCwxlRAZCEIQuaMfzhviXuPtrIr0c/brf5fCkkOlIytSHDZM4EOlAypF1aH0TdZjLDA==",
+  "setup_sha256": "9390e2b7c80ef4d8a6783d4200f5408e1e65c27918a07e956fd36496fc648446",
+  "assinatura_setup": "3R+hqMT8QOoixS7CKRRJvLr5jp3PL/fo8nxQjRy+jeSX1jUNx30aK/vKFdr8hs4vhuvjdq3dQYKtRBG5QvG3Cg==",
+  "expira_em": "2027-01-04T21:25:45Z",
+  "assinatura_validade": "UTDS7mfBdpwSta4QtL8lsxMofgRm+LHy+nzSlwKWKjB7s/R3smEe3j0B7gCYEe6rx0Ec6QLTJdFD8xDJ2/CuDA=="
 }
