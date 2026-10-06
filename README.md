@@ -6,27 +6,29 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.0.6
+## Baixar a versão mais nova: 1.1.0
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.0.6.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.6/SEI-GO-Setup-1.0.6.exe) | Instalador (já traz o Python) | 34 MB |
-| [SEI-GO-Manual-1.0.6.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.6/SEI-GO-Manual-1.0.6.pdf) | Manual do usuário, passo a passo com telas | 4 MB |
-| [SEI-GO-Manual-Tecnico-1.0.6.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.6/SEI-GO-Manual-Tecnico-1.0.6.pdf) | Manual técnico, para a TI | 780 KB |
+| [**SEI-GO-Setup-1.1.0.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.1.0/SEI-GO-Setup-1.1.0.exe) | Instalador (já traz o Python) | 35 MB |
+| [SEI-GO-Manual-1.1.0.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.1.0/SEI-GO-Manual-1.1.0.pdf) | Manual do usuário, passo a passo com telas | 5 MB |
+| [SEI-GO-Manual-Tecnico-1.1.0.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.1.0/SEI-GO-Manual-Tecnico-1.1.0.pdf) | Manual técnico, para a TI | 797 KB |
 
-**Novidades da 1.0.6 — PDF das Rotinas, Concluir corrigido e marcadores e anotação no processo**
+**Novidades da 1.1.0 — Textos prontos, blocos de assinatura, novos marcadores e iniciar processo**
 
-- O botão PDF das Rotinas com IA, do processo aberto e de Uso e produção voltou a funcionar (dava erro e não gerava nada).
-- Concluir na unidade: quando o SEI abre a tela de confirmação, o SEI-GO confirma por você. Só diz que concluiu se o histórico do SEI mostrar a conclusão; se não, avisa e o processo continua na caixa.
-- Cabeçalho do processo: mostra os marcadores (com o texto) e a anotação da unidade. Clique neles para alterar.
-- Falhas ao gravar pelo painel ficam registradas no erros.log, para facilitar o suporte.
-- O botão Instalar tudo que falta, em Instalação e requisitos, volta a ficar travado enquanto instala.
+- Textos prontos no Redigir (e em Mais ações → Responder com texto pronto): os Textos Padrão e os Favoritos da unidade no SEI. Veja o texto, use no editor (para ajustar ou pedir à IA) ou crie o documento direto com ele.
+- Criar Texto Padrão novo pelo painel, inclusive a partir do texto que está no editor (Salvar como texto padrão).
+- Blocos de assinatura: nova tela com os blocos recebidos e gerados, os documentos de cada bloco, quem já assinou e as anotações. Aviso no Windows quando chega bloco novo para a unidade. A assinatura continua no SEI.
+- Criar marcador novo para a unidade, direto na janela do Marcador (nome, cor e descrição).
+- Iniciar processo pelo painel: tipo (com busca entre todos), especificação, assuntos, interessados, observações e nível de acesso.
+- Pela IA: consultar textos padrão, favoritos e blocos de assinatura, e criar documento já com um texto padrão ou favorito (sempre confirmado no painel).
+- Documento restrito ou sigiloso: a hipótese legal agora é buscada no SEI quando a tela não a traz pronta.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.0.6.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.1.0.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -56,7 +58,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.0.6.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.1.0.exe -Algorithm SHA256`).
 
 ---
 
