@@ -6,27 +6,27 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.0.4
+## Baixar a versão mais nova: 1.0.5
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.0.4.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.4/SEI-GO-Setup-1.0.4.exe) | Instalador (já traz o Python) | 34 MB |
-| [SEI-GO-Manual-1.0.4.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.4/SEI-GO-Manual-1.0.4.pdf) | Manual do usuário, passo a passo com telas | 4 MB |
-| [SEI-GO-Manual-Tecnico-1.0.4.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.4/SEI-GO-Manual-Tecnico-1.0.4.pdf) | Manual técnico, para a TI | 761 KB |
+| [**SEI-GO-Setup-1.0.5.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.5/SEI-GO-Setup-1.0.5.exe) | Instalador (já traz o Python) | 34 MB |
+| [SEI-GO-Manual-1.0.5.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.5/SEI-GO-Manual-1.0.5.pdf) | Manual do usuário, passo a passo com telas | 4 MB |
+| [SEI-GO-Manual-Tecnico-1.0.5.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.0.5/SEI-GO-Manual-Tecnico-1.0.5.pdf) | Manual técnico, para a TI | 772 KB |
 
-**Novidades da 1.0.4 — Linha direta, onde o processo está, marcadores atuais e referências com link**
+**Novidades da 1.0.5 — Você vê e escolhe as skills que a IA usa**
 
-- Ao abrir um processo: em quais unidades ele está aberto e com quem (o mesmo que o SEI mostra ao clicar no número).
-- Botão Linha direta na lista de documentos: o mesmo filtro “Filtrar Linha Direta” da árvore do SEI.
-- Marcador: mostra os marcadores que o processo já tem, com texto, quem pôs e quando; dá para alterar o texto ou tirar o marcador. A lista de marcadores ganhou busca.
-- Documentos gravados pelo SEI-GO: números SEI citados (“SEI nº 95443449”, “Ofício 70699 (95443449)”, “Processo nº …”) viram link do SEI, como o botão Link SEI do editor. Número que o SEI não achar fica como texto.
-- PDF dos relatórios e do assistente: tenta o Edge e o Chrome de dois jeitos e grava pela pasta temporária. Se ainda assim não sair, o aviso diz o motivo e tem o botão Abrir para imprimir.
+- Toda resposta com IA (assistente, Redigir com IA e Analisar com IA) mostra qual skill foi usada, e se foi escolhida por você ou automaticamente.
+- Botão Skills nesses três lugares: em automático o SEI-GO escolhe pela sua pergunta; ou marque uma ou mais skills (até 5) e só elas são usadas.
+- As skills criadas pela unidade (Criar minha skill) agora entram na escolha automática — antes o assistente só considerava as do SEI-GO.
+- Na tela Skills: quantas vezes cada skill foi usada nos últimos 30 dias e o botão Usar no assistente.
+- Claude Code, Codex e Antigravity passam a dizer no fim da resposta qual skill do SEI-GO seguiram (reinstale nas IAs em Skills → Instalar nas IAs).
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.0.4.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.0.5.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -56,7 +56,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.0.4.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.0.5.exe -Algorithm SHA256`).
 
 ---
 
