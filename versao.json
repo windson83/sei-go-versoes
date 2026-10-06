@@ -1,23 +1,23 @@
 {
-  "versao": "1.0.1",
+  "versao": "1.0.2",
   "data": "2026-10-06",
-  "titulo": "Resumos com ou sem IA, à sua escolha",
+  "titulo": "Ciência, atribuição e últimos passos sem sair do painel",
   "novidades": [
-    "Ao gerar o resumo do dia ou o resumo semanal, escolha: com IA automático, com uma IA específica (Claude Code, Codex ou Antigravity) ou sem IA.",
-    "O resumo semanal com IA ganha uma análise da semana no começo do PDF: pontos de atenção, equipe e recomendações.",
-    "Se a IA escolhida falhar (sem crédito, limite de uso, login), o SEI-GO tenta as outras instaladas; só se nenhuma responder o resumo sai sem IA, com o motivo de cada uma.",
-    "IA que ficou sem crédito ou limite fica 30 minutos de fora, para não perder tempo tentando de novo.",
-    "Pedidos ao Claude Code mais leves: deixam de levar a lista de skills e plugins instalados."
+    "Botões Dar ciência e Atribuir no processo aberto (os mesmos do SEI), com confirmação.",
+    "A próxima ação sugerida virou botão: “Abrir e dar ciência” abre e pergunta; “Atribuir a alguém da equipe” abre a lista da equipe.",
+    "Ao abrir um processo: os 5 últimos andamentos, com quem ele está e a próxima ação.",
+    "Pela IA também: “dê ciência no processo X”, “atribua o processo X para a Maria” — sempre confirmado no painel.",
+    "Logins que são CPF aparecem mascarados no histórico e na lista da equipe."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.0.1",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.1/SEI-GO-Setup-1.0.1.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.0.2",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.2/SEI-GO-Setup-1.0.2.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.1/SEI-GO-atualizacao-1.0.1.bin",
-  "pacote_sha256": "70f9ffddb1291cf99b0496b938ed270b24552a1467bd77b62f326e2225a67775",
-  "assinado_em": "2026-10-06T16:24:18Z",
-  "assinatura": "ZUfUOTCl+8rmmKnOuAIQpJ8tkSFKtQ4rKu2F44JW9t68D++RgMzjx9/5zCGaJlSh5LT1Uy4LZ89JXOv0JTLHCg==",
-  "setup_sha256": "c39b88328ad19a32e0a2ae08b6f629fd2a9c32adda2426d86f7b00ef8e6f6b78",
-  "assinatura_setup": "ah71gOY90+4TNu+AczSRWZV1ZcmjKea9mxDXOf/tinr5aJBR4xcApbeIS+abUQnvVdIIGwul/DhNg+Rx7sIVCw==",
-  "expira_em": "2027-01-04T16:24:18Z",
-  "assinatura_validade": "wY07lexgpoLAlo6hZ8QbcvPb+lcjVxcWN9S7XE4W4Rk+CVsi0OKw9tpIwF2t9kjtkWHC42wym+WWH3ORn/a+Bg=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.2/SEI-GO-atualizacao-1.0.2.bin",
+  "pacote_sha256": "bf62697e6b0dfb3e49013c1284d69b3d9abd1a7972ceeb680986a39cd4092f80",
+  "assinado_em": "2026-10-06T16:45:27Z",
+  "assinatura": "j3FD5vBqpixUX9XXRQ6uznInjYz9YJteqStyI6Q4H7sPGr+kX4imAA+qlfmxMBOEEfXyez7MLxknB6MqvzgcBg==",
+  "setup_sha256": "adbc7652a853b767deadac4b3068132237a904b25d65cc86b9fef03ff5bf9994",
+  "assinatura_setup": "FkB0ARqX6QtOdtS8rtLMtJpfWTIQEG5aIORaH7LTkNbfpIYW67HctVEG1WmdguAbYFcnX77nfYhahiExN2bYAg==",
+  "expira_em": "2027-01-04T16:45:27Z",
+  "assinatura_validade": "b1pltwMeONQW5wV7RBn/0JNGu7a8SFDSdGd39Hdbz+31F50PIi5+wcR9dabd0UQhlVg1d69mhsW/mGZe4WQqCQ=="
 }
