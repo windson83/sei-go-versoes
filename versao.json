@@ -1,13 +1,18 @@
 {
-  "versao": "0.9.3",
-  "data": "2026-10-05",
-  "titulo": "Aviso de versão nova mais claro",
+  "versao": "0.9.4",
+  "data": "2026-10-06",
+  "titulo": "Atualização automática",
   "novidades": [
-    "Botão Baixar destacado na faixa de versão nova.",
-    "Janela de novidades com o botão Ir para o download.",
-    "Manual do usuário com o capítulo Versão nova do SEI-GO."
+    "O SEI-GO se atualiza sozinho: procura versão nova uma vez por dia e quando você entra no Windows.",
+    "Botão Atualizar agora na faixa de versão nova e em Configuração.",
+    "Só instala pacote com a assinatura digital do SEI-GO; se algo falhar, volta para a versão anterior.",
+    "Em Configuração dá para escolher só ser avisado."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v0.9.3",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.3/SEI-GO-Setup-0.9.3.exe",
-  "minima": ""
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v0.9.4",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.4/SEI-GO-Setup-0.9.4.exe",
+  "minima": "",
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.4/SEI-GO-atualizacao-0.9.4.bin",
+  "pacote_sha256": "fcce6520a4118e244f3079512a1bb0d48d21426f8cd77da61fb6bb619cc532eb",
+  "assinado_em": "2026-10-06T10:47:22Z",
+  "assinatura": "QAyoXw7lo5hCxvAbHOpVtSia4MPxQWgkRaK3n4ETRWpPmn76/QxIgEiEGgkcVrUDSUuiemtIjb/+dPjorU+JDw=="
 }
