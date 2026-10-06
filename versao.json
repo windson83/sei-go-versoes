@@ -1,23 +1,23 @@
 {
-  "versao": "1.0.2",
+  "versao": "1.0.3",
   "data": "2026-10-06",
-  "titulo": "Ciência, atribuição e últimos passos sem sair do painel",
+  "titulo": "Marcador, anotação, enviar, documento externo e concluir pelo painel",
   "novidades": [
-    "Botões Dar ciência e Atribuir no processo aberto (os mesmos do SEI), com confirmação.",
-    "A próxima ação sugerida virou botão: “Abrir e dar ciência” abre e pergunta; “Atribuir a alguém da equipe” abre a lista da equipe.",
-    "Ao abrir um processo: os 5 últimos andamentos, com quem ele está e a próxima ação.",
-    "Pela IA também: “dê ciência no processo X”, “atribua o processo X para a Maria” — sempre confirmado no painel.",
-    "Logins que são CPF aparecem mascarados no histórico e na lista da equipe."
+    "Novo botão Mais ações no processo aberto: Marcador, Anotação, Incluir documento externo, Enviar processo e Concluir na unidade.",
+    "Enviar: busque a unidade pelo nome ou sigla (até 10 de uma vez), com manter aberto, retorno programado em dias úteis ou corridos, remover anotação e aviso por e-mail.",
+    "Documento externo: escolha o arquivo (até 100 MB), o tipo, a data, o formato (nato-digital ou digitalizado) e o nível de acesso.",
+    "A próxima ação “Concluir na unidade” virou botão, com confirmação.",
+    "Pela IA: “ponha o marcador X no processo” e “registre a anotação …” — sempre confirmados no painel. Enviar, concluir e incluir documento externo só pelo clique no painel; a IA nunca tramita nem conclui."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.0.2",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.2/SEI-GO-Setup-1.0.2.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.0.3",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.3/SEI-GO-Setup-1.0.3.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.2/SEI-GO-atualizacao-1.0.2.bin",
-  "pacote_sha256": "bf62697e6b0dfb3e49013c1284d69b3d9abd1a7972ceeb680986a39cd4092f80",
-  "assinado_em": "2026-10-06T16:45:27Z",
-  "assinatura": "j3FD5vBqpixUX9XXRQ6uznInjYz9YJteqStyI6Q4H7sPGr+kX4imAA+qlfmxMBOEEfXyez7MLxknB6MqvzgcBg==",
-  "setup_sha256": "adbc7652a853b767deadac4b3068132237a904b25d65cc86b9fef03ff5bf9994",
-  "assinatura_setup": "FkB0ARqX6QtOdtS8rtLMtJpfWTIQEG5aIORaH7LTkNbfpIYW67HctVEG1WmdguAbYFcnX77nfYhahiExN2bYAg==",
-  "expira_em": "2027-01-04T16:45:27Z",
-  "assinatura_validade": "b1pltwMeONQW5wV7RBn/0JNGu7a8SFDSdGd39Hdbz+31F50PIi5+wcR9dabd0UQhlVg1d69mhsW/mGZe4WQqCQ=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.0.3/SEI-GO-atualizacao-1.0.3.bin",
+  "pacote_sha256": "75bf189339d0bdb1bb8f741261c2a1ae25644834871720762846563a7e86c196",
+  "assinado_em": "2026-10-06T17:15:49Z",
+  "assinatura": "8NuRwoEHE8WwR1vPP51LhJBmLllQ9T8JWz5a35qy6kBuN8Q54ukY+ZO5g4E4D1ZFo3EPtih4FW5Y/0hR3VzvDg==",
+  "setup_sha256": "b1467c7ef2af91335b3e45605b1af1f8b9bde6674c0fc007cfd27b20a5a762f0",
+  "assinatura_setup": "4urGiVei9xsqTkC9P6TpwYKT+Lup+sjHau9xvm/5uGCQ9xIqnkCLrQC9gw69+RLQgnIc+PT1kcKWtNjyyWkuBg==",
+  "expira_em": "2027-01-04T17:15:49Z",
+  "assinatura_validade": "Hv2s0es3vyotD6BU6u8jFwUTDR0gVuTVg6Za19ZV0w8sPuaLH03tAUnVPZABMMyWE2VYVqZM0VqUutMpliOnDw=="
 }
