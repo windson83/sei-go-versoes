@@ -1,18 +1,18 @@
 {
-  "versao": "0.9.4",
+  "versao": "0.9.5",
   "data": "2026-10-06",
-  "titulo": "Atualização automática",
+  "titulo": "Mais segurança e painel de distribuição",
   "novidades": [
-    "O SEI-GO se atualiza sozinho: procura versão nova uma vez por dia e quando você entra no Windows.",
-    "Botão Atualizar agora na faixa de versão nova e em Configuração.",
-    "Só instala pacote com a assinatura digital do SEI-GO; se algo falhar, volta para a versão anterior.",
-    "Em Configuração dá para escolher só ser avisado."
+    "O painel só abre pelo atalho do SEI-GO e não pode mais ser acessado por sites da internet.",
+    "Configurações da automação conferidas antes de virar tarefa do Windows.",
+    "Skills enviadas não liberam mais ferramentas de sistema para a IA.",
+    "Quem publica vê no painel quantos computadores já atualizaram cada versão."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v0.9.4",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.4/SEI-GO-Setup-0.9.4.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v0.9.5",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.5/SEI-GO-Setup-0.9.5.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.4/SEI-GO-atualizacao-0.9.4.bin",
-  "pacote_sha256": "fcce6520a4118e244f3079512a1bb0d48d21426f8cd77da61fb6bb619cc532eb",
-  "assinado_em": "2026-10-06T10:47:22Z",
-  "assinatura": "QAyoXw7lo5hCxvAbHOpVtSia4MPxQWgkRaK3n4ETRWpPmn76/QxIgEiEGgkcVrUDSUuiemtIjb/+dPjorU+JDw=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v0.9.5/SEI-GO-atualizacao-0.9.5.bin",
+  "pacote_sha256": "e105380d09a72794c8a4418da2cf46ea277c3a2d918c43bcc64f221f7d11b1ee",
+  "assinado_em": "2026-10-06T11:28:55Z",
+  "assinatura": "4q4SQbmCekQUVdOJRN7Z4yH0xHztaq0yehZmlkKHapOHF9MAJtlH3q2m0Tdifll1Zf7YR0MVYSKfefXIAsn5DA=="
 }
