@@ -6,28 +6,29 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.2.2
+## Baixar a versão mais nova: 1.2.3
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.2.2.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.2/SEI-GO-Setup-1.2.2.exe) | Instalador (já traz o Python) | 35 MB |
-| [SEI-GO-Manual-1.2.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.2/SEI-GO-Manual-1.2.2.pdf) | Manual do usuário, passo a passo com telas | 5 MB |
-| [SEI-GO-Manual-Tecnico-1.2.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.2/SEI-GO-Manual-Tecnico-1.2.2.pdf) | Manual técnico, para a TI | 862 KB |
+| [**SEI-GO-Setup-1.2.3.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.3/SEI-GO-Setup-1.2.3.exe) | Instalador (já traz o Python) | 35 MB |
+| [SEI-GO-Manual-1.2.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.3/SEI-GO-Manual-1.2.3.pdf) | Manual do usuário, passo a passo com telas | 5 MB |
+| [SEI-GO-Manual-Tecnico-1.2.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.3/SEI-GO-Manual-Tecnico-1.2.3.pdf) | Manual técnico, para a TI | 877 KB |
 
-**Novidades da 1.2.2 — IA que melhora o texto de verdade e fim do "?" no lugar do travessão**
+**Novidades da 1.2.3 — IA bem mais rápida, assinatura do texto preservada e "Feito pelo painel" em cada processo**
 
-- Editar documento: dois botões de IA. Reescrever por completo reescreve o texto de verdade (estrutura, clareza, tratamento, vocativo e fecho certos para o destinatário), sem perder nenhum fato. Revisar só corrige. Instruções são opcionais.
-- A IA agora lê o documento inteiro (destinatário, assunto, vocativo), o processo e os Textos Padrão da unidade parecidos, para seguir o padrão da casa.
-- Skills certas para escrever: sempre Redação oficial e Revisor de documento (e a da DTEL quando for o caso), sem os roteiros de ferramentas que só atrapalhavam.
-- A IA mostra o que mudou e pontos a confirmar; Desfazer volta o texto anterior. Também pode ajustar o vocativo e outras partes.
-- Travessão (–), aspas curvas e reticências não viram mais "?" no documento gravado no SEI.
-- Quando o SEI recusa gravar o texto, a recusa também fica no erros.log.
+- Claude Code no painel muito mais leve: cada pedido levava cerca de 335 mil tokens de configurações da conta (plugins e skills sincronizados) que a tarefa não usa; agora leva cerca de 2 mil. Responde mais rápido e gasta bem menos do limite da assinatura.
+- Codex não fica mais lendo arquivos antes de responder (uma reescrita tinha levado quase 2 minutos).
+- Melhorar texto: se o processo foi lido há menos de 30 minutos, a IA usa o cérebro local sem ir de novo ao SEI; os Textos Padrão de exemplo ficam 10 minutos na memória. A tela mostra quanto tempo levou.
+- O nome e o cargo de quem assina no fim do corpo (como no Ofício) não somem mais quando a IA reescreve o texto.
+- Nova aba "Feito pelo painel" no processo: tudo o que você fez pelo SEI-GO (texto com IA, gravações com a versão do SEI, ciência, marcador, envio, assinatura…), com o texto de antes e de depois para conferir ou copiar.
+- Abrir um processo tira o "não visualizado" na hora, e a Caixa se atualiza sozinha por trás quando você volta (sem precisar clicar em Atualizar).
+- Quando uma IA falha e o painel passa para outra, o motivo fica no erros.log.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.2.2.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.2.3.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -57,7 +58,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.2.2.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.2.3.exe -Algorithm SHA256`).
 
 ---
 
