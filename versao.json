@@ -1,29 +1,19 @@
 {
-  "versao": "1.2.0",
+  "versao": "1.2.1",
   "data": "2026-10-06",
-  "titulo": "Editar, assinar e excluir pelo painel; assinatura do texto; textos prontos com IA",
+  "titulo": "Correção: gravar texto em Ofício",
   "novidades": [
-    "Editar documento já criado: abre o texto que está no SEI, você ajusta (à mão, com IA ou com texto pronto) e grava. Se o documento já estiver assinado, o painel avisa que a assinatura cai.",
-    "Assinar pelo painel: escolha o cargo e digite a sua senha do SEI na hora, como na janela do SEI. A senha vai direto para o SEI e não fica guardada nem registrada. A IA nunca assina. Também dá para assinar os documentos marcados de um bloco.",
-    "Excluir minuta (não assinada), com a palavra excluir para confirmar, e Cancelar documento assinado, com o motivo.",
-    "Assinatura do texto: cadastre o nome e o cargo que vão no fim do documento (Configuração), marque um padrão e troque ou digite outro na hora de gravar. Some aquele cargo que o modelo do SEI põe sozinho.",
-    "Textos prontos com IA (com [lacunas] no que muda), trocar trecho por lacuna, alterar e excluir textos padrão, salvar o texto de um documento como texto pronto e adicionar documento aos Favoritos.",
-    "Blocos: assinar os marcados, devolver o bloco, anotar e editar documentos do bloco.",
-    "Mais ações: Sobrestar e Relacionar processo. Depois de iniciar um processo, o painel oferece incluir o primeiro documento.",
-    "Marcadores da unidade: mudar nome e cor e desativar.",
-    "Rotinas com IA também usam skills (automático ou as que você escolher). Skills criadas aqui podem ser exportadas para outro computador.",
-    "Relatar problema (no rodapé do menu): mostra os últimos erros e baixa um .zip com os registros mascarados.",
-    "Abrir processo ficou mais rápido (a árvore do SEI é lida uma vez só). Documento externo restrito ou sigiloso: a hipótese legal agora vem do SEI mesmo quando a tela não a traz. Cabeçalho do assistente arrumado."
+    "Editar ou gravar texto em documentos cujo modelo tem partes vazias (como o Ofício, com os Separadores de Seções) dava \"HTML da seção de conteúdo inválido\" e não gravava. Corrigido."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.2.0",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.0/SEI-GO-Setup-1.2.0.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.2.1",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.1/SEI-GO-Setup-1.2.1.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.0/SEI-GO-atualizacao-1.2.0.bin",
-  "pacote_sha256": "03928d8db87c073fcdddaa7a11e09062324cec9bf658d6439b1fafe507fd28bd",
-  "assinado_em": "2026-10-07T01:07:20Z",
-  "assinatura": "AdxEszW0726vzBHjWGB+ntt6XzWMzFepS2e/APkKOLsIxS9+UyPxX7HQAJr5Lor1ieLFaVIALrJJnHL4z8EhDA==",
-  "setup_sha256": "20b36f6b926b6a5a8e14b46db7b9beb074dc4a4fbbc11d8429d7dac0372d4489",
-  "assinatura_setup": "ZkzlyLH5wNEhK06/HXEsC1ANiRqH4kH2Yyjw0dxcQ6K5urlXFKo5sRGgVJo/PWAABoxL4Qciw2tdl97knCVBDw==",
-  "expira_em": "2027-01-05T01:07:21Z",
-  "assinatura_validade": "37mlpY6ol1OSZp9Bc1kS1ZPg4KCgBMu2uKf+BFOsNBAjNCxdeZhotURd1wFGdEUiiUrbsTn6Htg07nzRJm4fAQ=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.1/SEI-GO-atualizacao-1.2.1.bin",
+  "pacote_sha256": "911c84eb1feb3bef231f4d32ab8c8492508cbf7a0d764428002cd02bde52660d",
+  "assinado_em": "2026-10-07T01:34:13Z",
+  "assinatura": "Vf/UHudPK9sjy7RCVGAKVjyZTz6Ku3GzyPhbiiCS53Zn23QoFBP7A5GNVBotVY3+AoNNl+dI8+kpytZdI6FNDg==",
+  "setup_sha256": "215a67cc1af9f24933c04683015ccc4c45b79cd4756f7113b28d010faaea314f",
+  "assinatura_setup": "fvh/bam8ZJ5fNRJmk4CZX/tHBX8pW3BQsqUR3R0bOcyKBzG6QYY+l0f8E3Z4A5+OgQc+r9m+fmNQ30FM7CLXDA==",
+  "expira_em": "2027-01-05T01:34:13Z",
+  "assinatura_validade": "smxQeS2NTX7c5Cdfns6ytNvOBmJfMfgtRhy+qdixtDB/5zaFrY/riPzzIswDpGMYhmEuqglJbrMr4esaoC5JBg=="
 }
