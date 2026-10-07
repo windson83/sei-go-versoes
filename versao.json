@@ -1,19 +1,24 @@
 {
-  "versao": "1.2.1",
+  "versao": "1.2.2",
   "data": "2026-10-06",
-  "titulo": "Correção: gravar texto em Ofício",
+  "titulo": "IA que melhora o texto de verdade e fim do \"?\" no lugar do travessão",
   "novidades": [
-    "Editar ou gravar texto em documentos cujo modelo tem partes vazias (como o Ofício, com os Separadores de Seções) dava \"HTML da seção de conteúdo inválido\" e não gravava. Corrigido."
+    "Editar documento: dois botões de IA. Reescrever por completo reescreve o texto de verdade (estrutura, clareza, tratamento, vocativo e fecho certos para o destinatário), sem perder nenhum fato. Revisar só corrige. Instruções são opcionais.",
+    "A IA agora lê o documento inteiro (destinatário, assunto, vocativo), o processo e os Textos Padrão da unidade parecidos, para seguir o padrão da casa.",
+    "Skills certas para escrever: sempre Redação oficial e Revisor de documento (e a da DTEL quando for o caso), sem os roteiros de ferramentas que só atrapalhavam.",
+    "A IA mostra o que mudou e pontos a confirmar; Desfazer volta o texto anterior. Também pode ajustar o vocativo e outras partes.",
+    "Travessão (–), aspas curvas e reticências não viram mais \"?\" no documento gravado no SEI.",
+    "Quando o SEI recusa gravar o texto, a recusa também fica no erros.log."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.2.1",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.1/SEI-GO-Setup-1.2.1.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.2.2",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.2/SEI-GO-Setup-1.2.2.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.1/SEI-GO-atualizacao-1.2.1.bin",
-  "pacote_sha256": "911c84eb1feb3bef231f4d32ab8c8492508cbf7a0d764428002cd02bde52660d",
-  "assinado_em": "2026-10-07T01:34:13Z",
-  "assinatura": "Vf/UHudPK9sjy7RCVGAKVjyZTz6Ku3GzyPhbiiCS53Zn23QoFBP7A5GNVBotVY3+AoNNl+dI8+kpytZdI6FNDg==",
-  "setup_sha256": "215a67cc1af9f24933c04683015ccc4c45b79cd4756f7113b28d010faaea314f",
-  "assinatura_setup": "fvh/bam8ZJ5fNRJmk4CZX/tHBX8pW3BQsqUR3R0bOcyKBzG6QYY+l0f8E3Z4A5+OgQc+r9m+fmNQ30FM7CLXDA==",
-  "expira_em": "2027-01-05T01:34:13Z",
-  "assinatura_validade": "smxQeS2NTX7c5Cdfns6ytNvOBmJfMfgtRhy+qdixtDB/5zaFrY/riPzzIswDpGMYhmEuqglJbrMr4esaoC5JBg=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.2/SEI-GO-atualizacao-1.2.2.bin",
+  "pacote_sha256": "429382ee5a60025efdbfa7dbaf516a8ef925862964c08476ef23c8278af67eec",
+  "assinado_em": "2026-10-07T01:57:00Z",
+  "assinatura": "xRMERR0fWKxzRr1hKGiQEFa9SiatKKmfSIc+DQiXMsi9PKnhvH2Xjvk98MSI0SIZqbCMZwE6RYpa68vZhpkTDA==",
+  "setup_sha256": "5e2091f04f2c8ccb946d0506a10be6787f37ab289a919c72c2555c23d3d5c5ad",
+  "assinatura_setup": "O8xkXryr4/9TOzYuXNNPzGEkme9BW1WJBkRZ/DwaIJJpgCp9BfYcWOE7rc3vq4jyHgs582b2CN7mDCDZhgMmAA==",
+  "expira_em": "2027-01-05T01:57:00Z",
+  "assinatura_validade": "WknXvHXg3r0tJabdv/0hPq3hOIuzFGl0YeLXxe73QSM4CEfYN2enqQzQlQcIkPug8Rq7eBfXFTrlhfDcgdjAAw=="
 }
