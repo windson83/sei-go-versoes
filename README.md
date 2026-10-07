@@ -6,29 +6,30 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.2.3
+## Baixar a versão mais nova: 1.2.4
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.2.3.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.3/SEI-GO-Setup-1.2.3.exe) | Instalador (já traz o Python) | 35 MB |
-| [SEI-GO-Manual-1.2.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.3/SEI-GO-Manual-1.2.3.pdf) | Manual do usuário, passo a passo com telas | 5 MB |
-| [SEI-GO-Manual-Tecnico-1.2.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.3/SEI-GO-Manual-Tecnico-1.2.3.pdf) | Manual técnico, para a TI | 877 KB |
+| [**SEI-GO-Setup-1.2.4.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.4/SEI-GO-Setup-1.2.4.exe) | Instalador (já traz o Python) | 35 MB |
+| [SEI-GO-Manual-1.2.4.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.4/SEI-GO-Manual-1.2.4.pdf) | Manual do usuário, passo a passo com telas | 5 MB |
+| [SEI-GO-Manual-Tecnico-1.2.4.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.4/SEI-GO-Manual-Tecnico-1.2.4.pdf) | Manual técnico, para a TI | 901 KB |
 
-**Novidades da 1.2.3 — IA bem mais rápida, assinatura do texto preservada e "Feito pelo painel" em cada processo**
+**Novidades da 1.2.4 — Processos e peças abrindo rápido de novo, cabeçalho mais limpo e DeepSeek**
 
-- Claude Code no painel muito mais leve: cada pedido levava cerca de 335 mil tokens de configurações da conta (plugins e skills sincronizados) que a tarefa não usa; agora leva cerca de 2 mil. Responde mais rápido e gasta bem menos do limite da assinatura.
-- Codex não fica mais lendo arquivos antes de responder (uma reescrita tinha levado quase 2 minutos).
-- Melhorar texto: se o processo foi lido há menos de 30 minutos, a IA usa o cérebro local sem ir de novo ao SEI; os Textos Padrão de exemplo ficam 10 minutos na memória. A tela mostra quanto tempo levou.
-- O nome e o cargo de quem assina no fim do corpo (como no Ofício) não somem mais quando a IA reescreve o texto.
-- Nova aba "Feito pelo painel" no processo: tudo o que você fez pelo SEI-GO (texto com IA, gravações com a versão do SEI, ciência, marcador, envio, assinatura…), com o texto de antes e de depois para conferir ou copiar.
-- Abrir um processo tira o "não visualizado" na hora, e a Caixa se atualiza sozinha por trás quando você volta (sem precisar clicar em Atualizar).
-- Quando uma IA falha e o painel passa para outra, o motivo fica no erros.log.
+- Correção de lentidão: desde a 1.2.3, cada processo aberto fazia a Caixa inteira ser lida de novo do SEI ao voltar para o Início ou a Caixa. Em unidades grandes isso enchia a fila do SEI e as peças demoravam ou davam erro. Agora só a marca "não visualizado" daquele processo muda; a Caixa é relida depois de gravar algo, a cada 5 minutos ou no botão Atualizar.
+- Clicar rápido em vários processos não mistura mais as peças de um processo com as de outro (resposta atrasada é descartada).
+- Se a rede falhar ao ler, o painel tenta de novo sozinho e mostra uma mensagem clara, com o botão Tentar de novo; nada fica carregando para sempre.
+- Pedidos lentos e espera na fila do SEI ficam registrados (desempenho.log) e vão junto no Relatar problema.
+- Login com cara de CPF de quem está com o processo aparece mascarado (167…91) em Últimos passos, na Caixa e no histórico.
+- Cabeçalho do processo mais limpo: mostra 3 unidades onde está aberto, 2 andamentos, 2 marcadores e o começo da anotação; "+N", "Mostrar mais" e "ver tudo" abrem o resto.
+- Gemini CLI saiu da lista de IAs conectadas: o Google o aposentou em 18/06/2026 e o Antigravity CLI o substituiu.
+- Nova IA: DeepSeek, por chave de API (pago por uso, mais barato). A chave fica no cofre do Windows. Como o texto vai para servidores fora do Brasil, ele só entra no automático se você marcar.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.2.3.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.2.4.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -58,7 +59,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.2.3.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.2.4.exe -Algorithm SHA256`).
 
 ---
 
