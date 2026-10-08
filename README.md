@@ -6,27 +6,24 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.2.6
+## Baixar a versão mais nova: 1.2.7
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.2.6.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.6/SEI-GO-Setup-1.2.6.exe) | Instalador (já traz o Python) | 36 MB |
-| [SEI-GO-Manual-1.2.6.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.6/SEI-GO-Manual-1.2.6.pdf) | Manual do usuário, passo a passo com telas | 6 MB |
-| [SEI-GO-Manual-Tecnico-1.2.6.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.6/SEI-GO-Manual-Tecnico-1.2.6.pdf) | Manual técnico, para a TI | 925 KB |
+| [**SEI-GO-Setup-1.2.7.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.7/SEI-GO-Setup-1.2.7.exe) | Instalador (já traz o Python) | 36 MB |
+| [SEI-GO-Manual-1.2.7.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.7/SEI-GO-Manual-1.2.7.pdf) | Manual do usuário, passo a passo com telas | 6 MB |
+| [SEI-GO-Manual-Tecnico-1.2.7.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.7/SEI-GO-Manual-Tecnico-1.2.7.pdf) | Manual técnico, para a TI | 931 KB |
 
-**Novidades da 1.2.6 — Uso de IA e produção mais claro e relatório completo**
+**Novidades da 1.2.7 — Assinar com qualquer cargo e minuta que considera o processo inteiro**
 
-- Cada chamada de IA mostra quais skills entraram, qual IA respondeu, de qual rotina foi e o processo.
-- "De onde" em português: Painel (você na tela), Assistente (Claude/Codex conversando com o SEI) e Automação (tarefa agendada no Windows). Antes aparecia só "cli".
-- Tokens com selo "exato" (informado pelo programa da IA) ou "estimado"; passando o mouse, entrada, saída e cache.
-- Novos quadros: Por IA (tokens, chamadas, falhas e tempo médio) e Skills usadas. Filtros: só IA, só o que foi feito no SEI, só ferramentas.
-- Relatório PDF de uso completo: por IA, por ação, skills, ações no SEI e os últimos eventos. Antes saía "0 tokens".
+- Correção: ao assinar (inclusive em bloco), o painel dizia "Escolha o cargo/função" mesmo com o cargo marcado. Em algumas unidades o SEI escreve o cargo com espaço duplo; agora a comparação ignora isso e envia o código que o SEI espera.
+- Redigir com IA: nova opção "o processo inteiro (todos os documentos)" em Documento a ser respondido. A IA lê todos os documentos, em ordem, e não só o último.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.2.6.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.2.7.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -56,7 +53,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.2.6.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.2.7.exe -Algorithm SHA256`).
 
 ---
 
