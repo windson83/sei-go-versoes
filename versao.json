@@ -1,23 +1,20 @@
 {
-  "versao": "1.2.6",
-  "data": "2026-10-07",
-  "titulo": "Uso de IA e produção mais claro e relatório completo",
+  "versao": "1.2.7",
+  "data": "2026-10-08",
+  "titulo": "Assinar com qualquer cargo e minuta que considera o processo inteiro",
   "novidades": [
-    "Cada chamada de IA mostra quais skills entraram, qual IA respondeu, de qual rotina foi e o processo.",
-    "\"De onde\" em português: Painel (você na tela), Assistente (Claude/Codex conversando com o SEI) e Automação (tarefa agendada no Windows). Antes aparecia só \"cli\".",
-    "Tokens com selo \"exato\" (informado pelo programa da IA) ou \"estimado\"; passando o mouse, entrada, saída e cache.",
-    "Novos quadros: Por IA (tokens, chamadas, falhas e tempo médio) e Skills usadas. Filtros: só IA, só o que foi feito no SEI, só ferramentas.",
-    "Relatório PDF de uso completo: por IA, por ação, skills, ações no SEI e os últimos eventos. Antes saía \"0 tokens\"."
+    "Correção: ao assinar (inclusive em bloco), o painel dizia \"Escolha o cargo/função\" mesmo com o cargo marcado. Em algumas unidades o SEI escreve o cargo com espaço duplo; agora a comparação ignora isso e envia o código que o SEI espera.",
+    "Redigir com IA: nova opção \"o processo inteiro (todos os documentos)\" em Documento a ser respondido. A IA lê todos os documentos, em ordem, e não só o último."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.2.6",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.6/SEI-GO-Setup-1.2.6.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.2.7",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.7/SEI-GO-Setup-1.2.7.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.6/SEI-GO-atualizacao-1.2.6.bin",
-  "pacote_sha256": "733a6a0859047fe5c8d7261be42590e3ba1896e8a95f4210408f96158b806321",
-  "assinado_em": "2026-10-07T16:30:48Z",
-  "assinatura": "4ziUAQw0zFaYhnp8jO4NzZLOJUPM68pn9WbEs9xI3wUGqty8wuKkNsSxnqkXXpxOEv1f5A8/V7fdYn6yivJxBQ==",
-  "setup_sha256": "f1e1b3e84b96c5edccc1d32d0b8a0a039dbd8d9225b6f3da6362ccab9bd644b3",
-  "assinatura_setup": "R2vkKb5pDUoMNcvRZtjMECd4HWwt3VGvR+/2yFMVz922QgVrLPiR6dsZABi8PWClmMmmOiUxsIANvXtQYbhkCA==",
-  "expira_em": "2027-01-05T16:30:48Z",
-  "assinatura_validade": "n/UBK7bB/0Znv8xOa6GLtb1uyybVCL/BiH/dWjbhQq7c75IvS0iy/5Rr3eormD8X8SO4IH1TOvZD+upbANtPCQ=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.2.7/SEI-GO-atualizacao-1.2.7.bin",
+  "pacote_sha256": "8dc3f2edbd6cd288a7fb494f3a02ffd14322f9b0d536641017a31c6fd6db4a5d",
+  "assinado_em": "2026-10-08T22:27:08Z",
+  "assinatura": "ObhPbYqz85acOO0ARXgycbnV0MN3EfPydHEHmpQdnoJXRUj71n3efAtlgMMG6o+HqCvuFfu/lwykZh0Y67TgAg==",
+  "setup_sha256": "e2e3e138f6370277f2a8eb617e874b05d05e55935120bf2ba42f907485387667",
+  "assinatura_setup": "gHkisxm4++81HsLDhM1euBvbbUNoPypof1Cv0Qf9Zr7i/atMq1pxkmQTGOQKkGq40TVyoqcgQvOJmx8xzaQhCQ==",
+  "expira_em": "2027-01-06T22:27:08Z",
+  "assinatura_validade": "msXNdiE1eym9r3mYOKL5OhGj+K9mU3pWIgdggTMJwwWHgV3vfiLDvvfUqcZOFsCJ3aG/i3FItCqWg5mgDkg8CA=="
 }
