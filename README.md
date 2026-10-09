@@ -6,25 +6,26 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.2.8
+## Baixar a versão mais nova: 1.2.9
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.2.8.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.8/SEI-GO-Setup-1.2.8.exe) | Instalador (já traz o Python) | 36 MB |
-| [SEI-GO-Manual-1.2.8.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.8/SEI-GO-Manual-1.2.8.pdf) | Manual do usuário, passo a passo com telas | 6 MB |
-| [SEI-GO-Manual-Tecnico-1.2.8.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.8/SEI-GO-Manual-Tecnico-1.2.8.pdf) | Manual técnico, para a TI | 936 KB |
+| [**SEI-GO-Setup-1.2.9.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.9/SEI-GO-Setup-1.2.9.exe) | Instalador (já traz o Python) | 36 MB |
+| [SEI-GO-Manual-1.2.9.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.9/SEI-GO-Manual-1.2.9.pdf) | Manual do usuário, passo a passo com telas | 6 MB |
+| [SEI-GO-Manual-Tecnico-1.2.9.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.2.9/SEI-GO-Manual-Tecnico-1.2.9.pdf) | Manual técnico, para a TI | 946 KB |
 
-**Novidades da 1.2.8 — Cargo da assinatura escolhido pelo código do SEI**
+**Novidades da 1.2.9 — Minutas mais completas, no padrão do redator oficial**
 
-- Assinar: a lista de cargos vem do SEI com o código de cada um, e o painel envia o código escolhido. Acabou a comparação de texto que falhava em algumas unidades (a 1.2.7 ainda podia falhar onde o SEI usa códigos numéricos).
-- Sem cargo já marcado pelo SEI, a lista começa em "Escolha o cargo/função…" (nada de assinar com o primeiro da lista sem ver). Com 6 cargos ou mais aparece um campo de pesquisa.
-- Se o cargo não foi escolhido, a senha digitada não é apagada.
+- Redigir com IA: o que você escreve vira rascunho de informações; a IA reescreve em texto oficial, com referências (SEI nº), um parágrafo por assunto com a conclusão, a providência e fecho formal.
+- Nova opção Estilo: Completo (recomendado) ou Objetivo (curto, 2 a 4 parágrafos).
+- A IA corrige nomes, siglas e datas, cita só números que estão no processo e avisa em Observações quando a sua informação não bate com o processo.
+- Na escrita entram só skills de redação e do assunto (ex.: Telecom DTEL e as da unidade); skills de análise ficaram de fora.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.2.8.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.2.9.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -54,7 +55,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.2.8.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.2.9.exe -Algorithm SHA256`).
 
 ---
 
