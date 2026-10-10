@@ -6,31 +6,28 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.3.0
+## Baixar a versão mais nova: 1.3.1
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.3.0.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.0/SEI-GO-Setup-1.3.0.exe) | Instalador (já traz o Python) | 36 MB |
-| [SEI-GO-Manual-1.3.0.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.0/SEI-GO-Manual-1.3.0.pdf) | Manual do usuário, passo a passo com telas | 6 MB |
-| [SEI-GO-Manual-Tecnico-1.3.0.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.0/SEI-GO-Manual-Tecnico-1.3.0.pdf) | Manual técnico, para a TI | 959 KB |
+| [**SEI-GO-Setup-1.3.1.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.1/SEI-GO-Setup-1.3.1.exe) | Instalador (já traz o Python) | 37 MB |
+| [SEI-GO-Manual-1.3.1.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.1/SEI-GO-Manual-1.3.1.pdf) | Manual do usuário, passo a passo com telas | 6 MB |
+| [SEI-GO-Manual-Tecnico-1.3.1.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.1/SEI-GO-Manual-Tecnico-1.3.1.pdf) | Manual técnico, para a TI | 1 MB |
 
-**Novidades da 1.3.0 — Redação sênior: a IA lê o processo inteiro, escreve como especialista e revisa**
+**Novidades da 1.3.1 — Privacidade no envio à IA, dupla checagem de segurança e cópia cifrada**
 
-- Redigir com IA, análise Profunda (padrão): um analista lê TODOS os documentos do processo e monta a Ficha do processo; o especialista da área redige; um revisor sênior confere fatos, números e se respondeu a tudo.
-- A Ficha fica guardada: a 2ª minuta do mesmo processo sai bem mais rápida, e só os documentos novos são relidos.
-- Na minuta aparecem a Conferência do revisor (o que está certo e o que confirmar) e a Ficha do processo (pedidos, cronologia, prazos, números).
-- Perfis de resposta: Detalhado, Sucinto, Técnico-jurídico e Executivo (para autoridade). A unidade pode criar os seus e escolher o padrão.
-- Especialistas novos ou reescritos com legislação conferida: Telecom, Contratos e fiscalização, Compras, Gestão de pessoas, LGPD e LAI, Redação oficial (Manual de Goiás 2026).
-- A unidade escolhe seus especialistas na tela Skills (liga só os da sua área) e pode criar os próprios.
-- Analisar com IA também parte da Ficha do processo, com pedidos e situação e riscos.
-- Correção: gerar a minuta não trava mais as outras telas do painel enquanto a IA trabalha.
-- Opção Rápida continua disponível para casos simples (uma passada só).
+- CPF, RG, CNH, cartão, e-mail pessoal, conta e data de nascimento saem mascarados em todo pedido às IAs e nas ferramentas usadas pelo Claude, Codex e Antigravity. Leva milésimos de segundo.
+- O SEI-GO lê o nível de acesso de cada documento no SEI. Documento sigiloso não é guardado no cérebro local nem enviado à IA (dá para liberar em Configuração, se a unidade permitir).
+- Dupla checagem de tudo o que vira instrução para a IA (skills, perfis, rotinas, modelos, cópias): regras fixas contra injeção de prompt e texto disfarçado, mais revisão por IA.
+- Cópia de segurança cifrada (.seigo, AES-256 com senha): leve perfis, skills, rotinas e preferências para outro computador ou compartilhe com a unidade.
+- Importar mostra o que veio e a checagem de cada parte; junta sem apagar, rotinas chegam desligadas e dá para desfazer.
+- Prazo de guarda opcional do cérebro local e aviso se o BitLocker estiver desligado.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.3.0.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.3.1.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -60,7 +57,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.3.0.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.3.1.exe -Algorithm SHA256`).
 
 ---
 
