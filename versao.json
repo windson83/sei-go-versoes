@@ -1,23 +1,24 @@
 {
-  "versao": "1.3.2",
+  "versao": "1.3.3",
   "data": "2026-10-13",
-  "titulo": "Peças como no SEI",
+  "titulo": "Assinatura no lugar certo, formatos do SEI e prévia igual ao SEI",
   "novidades": [
-    "Ao abrir um documento no painel, ele aparece como no SEI: brasão, cabeçalho, parágrafos numerados, recuos, bloco de assinatura e QR Code.",
-    "PDF abre no próprio visualizador do navegador (zoom, páginas, imprimir); planilhas (.xlsx) aparecem em tabela e documentos do Word em parágrafos.",
-    "Botões Como no SEI e Texto em cima da peça; o painel lembra a sua escolha. Vale também na base do Redigir com IA e na visualização ampliada.",
-    "Segurança: a peça é limpa antes de aparecer (sem scripts, sem links ativos, nada buscado fora) e fica numa área isolada do painel.",
-    "A IA continua lendo só o texto dos documentos, o jeito mais barato e rápido: a visualização é só para você."
+    "Nome e cargo no lugar certo: no Despacho vai completo no campo próprio do modelo (depois da data), no lugar do \"[Cargo/função do usuário]\"; no Ofício, no fim do texto. Automático pelo modelo, com escolha por tipo em Configuração.",
+    "Documento que ficou com o nome repetido no fim do texto: ao gravar de novo pelo Editar, a cópia do corpo sai.",
+    "Formato dos parágrafos na minuta e na edição: do modelo do SEI (numerado no Despacho), numerados, com recuo na 1ª linha ou justificado sem recuo.",
+    "Marcações que viram os estilos do SEI: # título, > citação recuada, a) alíneas, I – incisos e 1.1 subitens. A IA usa quando ajuda a leitura.",
+    "Pré-visualizar mostra a minuta como o SEI vai mostrar: brasão e cabeçalho da sua unidade, numeração, data e assinatura no lugar certo.",
+    "Editar abre o texto com as marcações e o negrito, e gravar de novo não desfaz a formatação."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.3.2",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.3.2/SEI-GO-Setup-1.3.2.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.3.3",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.3.3/SEI-GO-Setup-1.3.3.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.3.2/SEI-GO-atualizacao-1.3.2.bin",
-  "pacote_sha256": "25c1656e7e6f19a256ea32860cdf108cb68e6ca48ffc2c3c7bad4d2cfa7eceb8",
-  "assinado_em": "2026-10-13T18:05:04Z",
-  "assinatura": "PazlBP5j4CHiFtBOO6+gMcaFx2NwiGmKPdxxyzO+m3UvFoAf4+bYwIjp5fOTFIYYV+xnUHfIAWoo3QL79OOCAQ==",
-  "setup_sha256": "bced83e96099d90c14e747e726c41dc540ada685edf544179331613483d942ef",
-  "assinatura_setup": "YkpAx9wv/dgUfnBJDcmln3w1Mi6JOR/GE0VPHLHFMhXiy0vhUETBzLfSmjEgyAXPBfvTR4NzqTnBt09e+Al8BA==",
-  "expira_em": "2027-01-11T18:05:04Z",
-  "assinatura_validade": "ap161fn5G4422GM0RtLHz6qLe50GlPRA29WYuCcUxrJpjbKgekby4y/mCpxglKvWckVjnF1RvhFNDj0pnijGDA=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.3.3/SEI-GO-atualizacao-1.3.3.bin",
+  "pacote_sha256": "9c764237fd451cb3ec1d3e3b173f38715219c625080f8ecd71c3a2271f8d8ca4",
+  "assinado_em": "2026-10-13T20:41:34Z",
+  "assinatura": "ZzBs/ZJ6ZayXVpsZ+F3Iq9WYfd4pVcTjLnqfRM2bq9mDGj2MXdhxGhrkEQKye2pTvMiueHcRKnHj15Y02s0aCQ==",
+  "setup_sha256": "364d64c7d586446d0d81bd9d57aaad8c9517192b01f02c461d5e41b5b4de7961",
+  "assinatura_setup": "bmHeMKSCwcSA5OX3s/CP6arDycG701ocIatzuy2O9d4eDwqDwo7fkgZujwTtXpOhXUBFPBY0F5dQ+hJ8IenYDw==",
+  "expira_em": "2027-01-11T20:41:34Z",
+  "assinatura_validade": "IIoqVyQUN1PwvLpcB9jBzhhoZ1Z8bNvQmKdRSEfohJ9ZaYmQiIn32BcQLqGSVzQ282yuXPZiAdJX8SBMPM4UCg=="
 }
