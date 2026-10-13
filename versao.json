@@ -1,24 +1,23 @@
 {
-  "versao": "1.3.1",
-  "data": "2026-10-10",
-  "titulo": "Privacidade no envio à IA, dupla checagem de segurança e cópia cifrada",
+  "versao": "1.3.2",
+  "data": "2026-10-13",
+  "titulo": "Peças como no SEI",
   "novidades": [
-    "CPF, RG, CNH, cartão, e-mail pessoal, conta e data de nascimento saem mascarados em todo pedido às IAs e nas ferramentas usadas pelo Claude, Codex e Antigravity. Leva milésimos de segundo.",
-    "O SEI-GO lê o nível de acesso de cada documento no SEI. Documento sigiloso não é guardado no cérebro local nem enviado à IA (dá para liberar em Configuração, se a unidade permitir).",
-    "Dupla checagem de tudo o que vira instrução para a IA (skills, perfis, rotinas, modelos, cópias): regras fixas contra injeção de prompt e texto disfarçado, mais revisão por IA.",
-    "Cópia de segurança cifrada (.seigo, AES-256 com senha): leve perfis, skills, rotinas e preferências para outro computador ou compartilhe com a unidade.",
-    "Importar mostra o que veio e a checagem de cada parte; junta sem apagar, rotinas chegam desligadas e dá para desfazer.",
-    "Prazo de guarda opcional do cérebro local e aviso se o BitLocker estiver desligado."
+    "Ao abrir um documento no painel, ele aparece como no SEI: brasão, cabeçalho, parágrafos numerados, recuos, bloco de assinatura e QR Code.",
+    "PDF abre no próprio visualizador do navegador (zoom, páginas, imprimir); planilhas (.xlsx) aparecem em tabela e documentos do Word em parágrafos.",
+    "Botões Como no SEI e Texto em cima da peça; o painel lembra a sua escolha. Vale também na base do Redigir com IA e na visualização ampliada.",
+    "Segurança: a peça é limpa antes de aparecer (sem scripts, sem links ativos, nada buscado fora) e fica numa área isolada do painel.",
+    "A IA continua lendo só o texto dos documentos, o jeito mais barato e rápido: a visualização é só para você."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.3.1",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.3.1/SEI-GO-Setup-1.3.1.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.3.2",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.3.2/SEI-GO-Setup-1.3.2.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.3.1/SEI-GO-atualizacao-1.3.1.bin",
-  "pacote_sha256": "b19850675ceab573a93f1abe4ec8919ed58da56a133a347a7b712764f3e1e738",
-  "assinado_em": "2026-10-10T13:52:00Z",
-  "assinatura": "uZcUDKE/jJXwco1OZHu98W2sKAItmWYIEULphaaYwEQJwMfuHw/yplR8OIm8Zxi9BqXIAcSMDs9CndjjTDPbAA==",
-  "setup_sha256": "e168269977016294c3a0b6ba1b7bf3affda4d601dd99a77728d32a868dd8cff1",
-  "assinatura_setup": "VrdNVfE6/mTx41mn7mM2pQPC5A4iE1o5Y8SS2HDtM0Ch4G8srBcDnxfwQlTrY8FrKjN/DIISpd89dnp0o62RCQ==",
-  "expira_em": "2027-01-08T13:52:00Z",
-  "assinatura_validade": "HzWOOM0YYOauHRdgBFc7if2hKih9JXoZ5hTcYGhxfwf8V4eBRERp+OOLKcqAFm0arZeCeVbGtrYHnlxvL0NgCA=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.3.2/SEI-GO-atualizacao-1.3.2.bin",
+  "pacote_sha256": "25c1656e7e6f19a256ea32860cdf108cb68e6ca48ffc2c3c7bad4d2cfa7eceb8",
+  "assinado_em": "2026-10-13T18:05:04Z",
+  "assinatura": "PazlBP5j4CHiFtBOO6+gMcaFx2NwiGmKPdxxyzO+m3UvFoAf4+bYwIjp5fOTFIYYV+xnUHfIAWoo3QL79OOCAQ==",
+  "setup_sha256": "bced83e96099d90c14e747e726c41dc540ada685edf544179331613483d942ef",
+  "assinatura_setup": "YkpAx9wv/dgUfnBJDcmln3w1Mi6JOR/GE0VPHLHFMhXiy0vhUETBzLfSmjEgyAXPBfvTR4NzqTnBt09e+Al8BA==",
+  "expira_em": "2027-01-11T18:05:04Z",
+  "assinatura_validade": "ap161fn5G4422GM0RtLHz6qLe50GlPRA29WYuCcUxrJpjbKgekby4y/mCpxglKvWckVjnF1RvhFNDj0pnijGDA=="
 }
