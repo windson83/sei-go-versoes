@@ -6,27 +6,28 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.3.2
+## Baixar a versão mais nova: 1.3.3
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.3.2.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.2/SEI-GO-Setup-1.3.2.exe) | Instalador (já traz o Python) | 37 MB |
-| [SEI-GO-Manual-1.3.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.2/SEI-GO-Manual-1.3.2.pdf) | Manual do usuário, passo a passo com telas | 6 MB |
-| [SEI-GO-Manual-Tecnico-1.3.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.2/SEI-GO-Manual-Tecnico-1.3.2.pdf) | Manual técnico, para a TI | 1 MB |
+| [**SEI-GO-Setup-1.3.3.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.3/SEI-GO-Setup-1.3.3.exe) | Instalador (já traz o Python) | 37 MB |
+| [SEI-GO-Manual-1.3.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.3/SEI-GO-Manual-1.3.3.pdf) | Manual do usuário, passo a passo com telas | 7 MB |
+| [SEI-GO-Manual-Tecnico-1.3.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.3.3/SEI-GO-Manual-Tecnico-1.3.3.pdf) | Manual técnico, para a TI | 1 MB |
 
-**Novidades da 1.3.2 — Peças como no SEI**
+**Novidades da 1.3.3 — Assinatura no lugar certo, formatos do SEI e prévia igual ao SEI**
 
-- Ao abrir um documento no painel, ele aparece como no SEI: brasão, cabeçalho, parágrafos numerados, recuos, bloco de assinatura e QR Code.
-- PDF abre no próprio visualizador do navegador (zoom, páginas, imprimir); planilhas (.xlsx) aparecem em tabela e documentos do Word em parágrafos.
-- Botões Como no SEI e Texto em cima da peça; o painel lembra a sua escolha. Vale também na base do Redigir com IA e na visualização ampliada.
-- Segurança: a peça é limpa antes de aparecer (sem scripts, sem links ativos, nada buscado fora) e fica numa área isolada do painel.
-- A IA continua lendo só o texto dos documentos, o jeito mais barato e rápido: a visualização é só para você.
+- Nome e cargo no lugar certo: no Despacho vai completo no campo próprio do modelo (depois da data), no lugar do "[Cargo/função do usuário]"; no Ofício, no fim do texto. Automático pelo modelo, com escolha por tipo em Configuração.
+- Documento que ficou com o nome repetido no fim do texto: ao gravar de novo pelo Editar, a cópia do corpo sai.
+- Formato dos parágrafos na minuta e na edição: do modelo do SEI (numerado no Despacho), numerados, com recuo na 1ª linha ou justificado sem recuo.
+- Marcações que viram os estilos do SEI: # título, > citação recuada, a) alíneas, I – incisos e 1.1 subitens. A IA usa quando ajuda a leitura.
+- Pré-visualizar mostra a minuta como o SEI vai mostrar: brasão e cabeçalho da sua unidade, numeração, data e assinatura no lugar certo.
+- Editar abre o texto com as marcações e o negrito, e gravar de novo não desfaz a formatação.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.3.2.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.3.3.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -56,7 +57,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.3.2.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.3.3.exe -Algorithm SHA256`).
 
 ---
 
