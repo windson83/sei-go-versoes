@@ -1,19 +1,21 @@
 {
-  "versao": "1.4.2",
+  "versao": "1.4.3",
   "data": "2026-10-14",
-  "titulo": "Correção: login e lista de órgãos do SEI",
+  "titulo": "Conferência do SEI real antes de cada versão",
   "novidades": [
-    "Correção: a lista de órgãos e o login no SEI paravam com \"o SEI tentou continuar sem HTTPS\". O próprio sei.go.gov.br passa por um endereço http no meio do login; agora o SEI-GO troca esse passo para https antes de sair, sem enviar nada sem criptografia."
+    "Toda versão nova é conferida no SEI de verdade antes de ser publicada (tela de login, lista de órgãos e conexão só com criptografia, sem fazer login): se falhar, a publicação para. Assim um erro como o da 1.4.0 e 1.4.1 não chega aos computadores.",
+    "Diagnóstico ganhou a linha Caminho do login do SEI: mostra se o servidor do SEI ainda passa por http no meio do login (o SEI-GO troca esse passo para https).",
+    "Comportamentos do SEI real que exigem cuidado ficam documentados e são acompanhados a cada conferência."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.4.2",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.4.2/SEI-GO-Setup-1.4.2.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.4.3",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.4.3/SEI-GO-Setup-1.4.3.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.4.2/SEI-GO-atualizacao-1.4.2.bin",
-  "pacote_sha256": "6a624c17a37509b7f28f1092bde062535f47c957b7edb68c40d4619c8a175b38",
-  "assinado_em": "2026-10-14T22:44:37Z",
-  "assinatura": "KrSs4lhlbh88ypaxctwA02XZTlh+mXazOtinOIOgVhTVxiK7syUB1Jk68FJkLe+LgINxNKS27CqoJ1mRbTWsDQ==",
-  "setup_sha256": "74fb5fead77179e0583ba08b46d24993c9d8acf4cc17349013d6de6efcbd5751",
-  "assinatura_setup": "9/9T+lBfdD2INGQK4kxJ0v+rmNJoOHBp3esIzcC8P0Yvn2FFffjpcRZqw9Mh65A1/qEk5Ie7XlI4jhM8QHSHAA==",
-  "expira_em": "2027-01-12T22:44:37Z",
-  "assinatura_validade": "1RQbVdF2C8KDuacDgxdP5CLUW2yaIVDSjwHkHYQP4YBhO5fg4CBJGG3PsbnW+wc3VtucQ2VrlouRzYEkWR0lCg=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.4.3/SEI-GO-atualizacao-1.4.3.bin",
+  "pacote_sha256": "3b83dc5c98d477fcd870693372f68fd91ac31c31698ce7bc36eefd08d24f59a8",
+  "assinado_em": "2026-10-14T23:01:38Z",
+  "assinatura": "FQgl10rLn6Ar1xFSWyZyoFzkdiGsja8qwol71ONSpHfoOt1FVFScrHbs5TRtFIE8AAmxoFJLdhvKuM4ABwoOAA==",
+  "setup_sha256": "b86889b9067cd3c762f5a544a9e63da4e73bb6feff974515d3b8e40120219b30",
+  "assinatura_setup": "Duc28GlIGjYjdBsQP/EyfvqwmneYNVegUrteCi9wcEyU89bxxCh1He2RmFSFeWRenlYYZ9Qns1J0wuIBsQA0Cw==",
+  "expira_em": "2027-01-12T23:01:39Z",
+  "assinatura_validade": "4HyOghVaLvJCpPBop6AQOlLgZStQ30/3AfMZkA89NjiigidyU11jxTl0tpIlItppimWrBFLggNDfIr3QCHJIAw=="
 }
