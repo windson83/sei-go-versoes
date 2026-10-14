@@ -1,25 +1,19 @@
 {
-  "versao": "1.4.1",
+  "versao": "1.4.2",
   "data": "2026-10-14",
-  "titulo": "Citações só para conferir, com link para o trecho e o original",
+  "titulo": "Correção: login e lista de órgãos do SEI",
   "novidades": [
-    "Na minuta, as marcas [F1], [F2]… mostram de onde veio cada informação. No quadro Fontes para conferência, Ver trecho abre o arquivo convertido na página citada, e Abrir o original abre o PDF ou o Word.",
-    "As marcas nunca vão para o SEI: saem sozinhas ao gravar. Arquivos e caminhos do seu computador também nunca vão para o documento oficial.",
-    "Opção Levar as fontes para o documento do SEI (desmarcada por padrão): inclui no fim só a lista das fontes oficiais da internet citadas, com link e data de acesso.",
-    "Na análise do processo, as fontes ficam no fim com links para o trecho guardado e para o site oficial, para conferir depois.",
-    "A IA e o revisor sênior citam como em documento oficial (\"item 5.2 do Termo de Referência\", \"art. 141 da Lei nº 14.133/2021\") e o painel avisa se aparecer caminho de arquivo no texto.",
-    "Segurança: o download de fontes confere o endereço real da conexão (proteção contra redirecionamento para a rede interna).",
-    "Pastas grandes indexam mais rápido na primeira vez (gravação em lotes), e o que já foi convertido não se perde se der erro no meio."
+    "Correção: a lista de órgãos e o login no SEI paravam com \"o SEI tentou continuar sem HTTPS\". O próprio sei.go.gov.br passa por um endereço http no meio do login; agora o SEI-GO troca esse passo para https antes de sair, sem enviar nada sem criptografia."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.4.1",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.4.1/SEI-GO-Setup-1.4.1.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.4.2",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.4.2/SEI-GO-Setup-1.4.2.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.4.1/SEI-GO-atualizacao-1.4.1.bin",
-  "pacote_sha256": "33b63ea488974cc4b67ba0cd412381f778e61283b9e623c77efc1f8be1227028",
-  "assinado_em": "2026-10-14T20:15:02Z",
-  "assinatura": "XHcRCTdSUQiqnR7QvisBYb8PxEoiFL7AnHucciU+4hxuufIrOXEk85xp/5COSV/4TT3pfNNt7bbUHrJP7bkaDA==",
-  "setup_sha256": "595592377f56f4f629710291e96a0f7a381f666ccb93ad1cbf6f9ff664fd8e27",
-  "assinatura_setup": "jepkzj/9ustcdfoeZeHo9je0lAEYaP9YwILnWBUBoUOrYVj6f5++XCgZSr2q1pGu0ZSbNUugUBUi8XNXR5+VDg==",
-  "expira_em": "2027-01-12T20:15:02Z",
-  "assinatura_validade": "xFkDK8mzlOBXKqnBJon7seRYkXncU+4nmJuHzRLGXxfgNh5Kg3U5JJHaQWQB6bted44uCr9VwXSzAZseHhazAQ=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.4.2/SEI-GO-atualizacao-1.4.2.bin",
+  "pacote_sha256": "6a624c17a37509b7f28f1092bde062535f47c957b7edb68c40d4619c8a175b38",
+  "assinado_em": "2026-10-14T22:44:37Z",
+  "assinatura": "KrSs4lhlbh88ypaxctwA02XZTlh+mXazOtinOIOgVhTVxiK7syUB1Jk68FJkLe+LgINxNKS27CqoJ1mRbTWsDQ==",
+  "setup_sha256": "74fb5fead77179e0583ba08b46d24993c9d8acf4cc17349013d6de6efcbd5751",
+  "assinatura_setup": "9/9T+lBfdD2INGQK4kxJ0v+rmNJoOHBp3esIzcC8P0Yvn2FFffjpcRZqw9Mh65A1/qEk5Ie7XlI4jhM8QHSHAA==",
+  "expira_em": "2027-01-12T22:44:37Z",
+  "assinatura_validade": "1RQbVdF2C8KDuacDgxdP5CLUW2yaIVDSjwHkHYQP4YBhO5fg4CBJGG3PsbnW+wc3VtucQ2VrlouRzYEkWR0lCg=="
 }
