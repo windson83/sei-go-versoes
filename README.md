@@ -6,23 +6,25 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.4.2
+## Baixar a versão mais nova: 1.4.3
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.4.2.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.4.2/SEI-GO-Setup-1.4.2.exe) | Instalador (já traz o Python) | 38 MB |
-| [SEI-GO-Manual-1.4.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.4.2/SEI-GO-Manual-1.4.2.pdf) | Manual do usuário, passo a passo com telas | 7 MB |
-| [SEI-GO-Manual-Tecnico-1.4.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.4.2/SEI-GO-Manual-Tecnico-1.4.2.pdf) | Manual técnico, para a TI | 1 MB |
+| [**SEI-GO-Setup-1.4.3.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.4.3/SEI-GO-Setup-1.4.3.exe) | Instalador (já traz o Python) | 38 MB |
+| [SEI-GO-Manual-1.4.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.4.3/SEI-GO-Manual-1.4.3.pdf) | Manual do usuário, passo a passo com telas | 7 MB |
+| [SEI-GO-Manual-Tecnico-1.4.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.4.3/SEI-GO-Manual-Tecnico-1.4.3.pdf) | Manual técnico, para a TI | 1 MB |
 
-**Novidades da 1.4.2 — Correção: login e lista de órgãos do SEI**
+**Novidades da 1.4.3 — Conferência do SEI real antes de cada versão**
 
-- Correção: a lista de órgãos e o login no SEI paravam com "o SEI tentou continuar sem HTTPS". O próprio sei.go.gov.br passa por um endereço http no meio do login; agora o SEI-GO troca esse passo para https antes de sair, sem enviar nada sem criptografia.
+- Toda versão nova é conferida no SEI de verdade antes de ser publicada (tela de login, lista de órgãos e conexão só com criptografia, sem fazer login): se falhar, a publicação para. Assim um erro como o da 1.4.0 e 1.4.1 não chega aos computadores.
+- Diagnóstico ganhou a linha Caminho do login do SEI: mostra se o servidor do SEI ainda passa por http no meio do login (o SEI-GO troca esse passo para https).
+- Comportamentos do SEI real que exigem cuidado ficam documentados e são acompanhados a cada conferência.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.4.2.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.4.3.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -52,7 +54,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.4.2.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.4.3.exe -Algorithm SHA256`).
 
 ---
 
