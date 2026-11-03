@@ -1,23 +1,20 @@
 {
-  "versao": "1.5.1",
+  "versao": "1.5.2",
   "data": "2026-11-03",
-  "titulo": "E-mail pelo SEI e correções vistas no SEI real",
+  "titulo": "Correção: caixa com todos os processos e ordem dos documentos",
   "novidades": [
-    "Enviar correspondência eletrônica (menu Tramitar): remetente da unidade, destinatários digitados ou sugeridos pelo SEI, cópia oculta, assunto, texto padrão, documentos do processo como anexo e nível de acesso. Sempre pede confirmação e o SEI registra o e-mail no processo.",
-    "Topo do processo numa linha só: PROCESSO, o número e o tipo lado a lado.",
-    "Correção: Consultar/Alterar processo dava \"Nenhum assunto informado\" quando os assuntos não eram mexidos; agora os assuntos e interessados que ficam são enviados como o SEI espera.",
-    "Correção: Duplicar processo e Iniciar processo relacionado agora mostram o número do processo novo (o SEI responde de jeitos diferentes em cada um).",
-    "Iniciar processo relacionado ganhou o campo Assuntos, para os tipos em que o SEI não sugere nenhum."
+    "Correção: a caixa mostrava no máximo 30 processos. O SEI mudou a forma de mostrar as páginas e o painel parava na primeira; agora lê todas (caixa, início, resumo do dia e avisos).",
+    "Lista de documentos do processo: escolha se o mais recente fica no topo (como era) ou o mais antigo, como na árvore do SEI. A escolha fica guardada."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.5.1",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.5.1/SEI-GO-Setup-1.5.1.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.5.2",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.5.2/SEI-GO-Setup-1.5.2.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.5.1/SEI-GO-atualizacao-1.5.1.bin",
-  "pacote_sha256": "39000fa316d474994c8dfc809afc6ed0919cbb31055732e259bab812a009e02e",
-  "assinado_em": "2026-11-03T18:29:44Z",
-  "assinatura": "z2XDRo8PEktvW8fkvwhbilLGmxGhiyOapeSFR/MXRS1bjXbT1jibRpGSI+H0VG585utXw3mGryrG+cDHQzreCQ==",
-  "setup_sha256": "d71f1227c5ac51118d08c218f235e12cbd1dc2ea6a68fe41340c63c391fd7b0a",
-  "assinatura_setup": "5KZUk8VFQQWGnQFOJvXQRI+aNMqk0gRjJ7t/E6fQJu2P+UsrXI6OoFzsmnm1/AEq7qaUXO33YPft9FFrAx/hBQ==",
-  "expira_em": "2027-02-01T18:29:44Z",
-  "assinatura_validade": "wlutmzBokZfl7oI8u+sVdoYwl18Hom2/av1TdLg2CogUrIwe3pIuq8/SS79ifWsLtznWCi6l4Bn10AdJXhnfDQ=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.5.2/SEI-GO-atualizacao-1.5.2.bin",
+  "pacote_sha256": "b5b756d3e5517ce7384e3cff61223097b6dac0eb341bffc07b18b8b9bbf5aedd",
+  "assinado_em": "2026-11-03T19:26:27Z",
+  "assinatura": "j5UDMkSKH5yXKOa45M/j9IR0aZ6tWTZMA6hRN4gfdFy61gAeK2rf3dG8ilvQlTsa3sJ7pAq6jeI7F8fan3ALAQ==",
+  "setup_sha256": "1a05961849e42747f91a38acc2fad1ecb7ee847d9e74794650890f35c2fc4fa2",
+  "assinatura_setup": "SeWIvsdEFuXc/zzqfUX2fApU+JETVyzXgL7jWmCgUqqm2Yvbz35HoNLmDo7/nnsbCrNLh0PUthuc9nvr8x86DA==",
+  "expira_em": "2027-02-01T19:26:27Z",
+  "assinatura_validade": "1DW5TIuV/nkxJ73yosC/bgdpycg4OaM+xEKIIZB6HAwt76q/kZekCwe4lwfgl8HFO/YHXP32xAPZv9FgJY/jCQ=="
 }
