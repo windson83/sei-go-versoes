@@ -1,21 +1,26 @@
 {
-  "versao": "1.4.3",
-  "data": "2026-10-14",
-  "titulo": "Conferência do SEI real antes de cada versão",
+  "versao": "1.5.0",
+  "data": "2026-11-03",
+  "titulo": "Processo mais limpo, botões do SEI nos menus e editor visual",
   "novidades": [
-    "Toda versão nova é conferida no SEI de verdade antes de ser publicada (tela de login, lista de órgãos e conexão só com criptografia, sem fazer login): se falhar, a publicação para. Assim um erro como o da 1.4.0 e 1.4.1 não chega aos computadores.",
-    "Diagnóstico ganhou a linha Caminho do login do SEI: mostra se o servidor do SEI ainda passa por http no meio do login (o SEI-GO troca esse passo para https).",
-    "Comportamentos do SEI real que exigem cuidado ficam documentados e são acompanhados a cada conferência."
+    "Topo do processo mais limpo: botões de IA e cinco menus (Documento, Tramitar, Organizar, Blocos, Processo); unidades, marcador, anotação, acompanhamento e último andamento viram selos, e Detalhes abre o resto.",
+    "Incluir em bloco interno, de reunião ou de assinatura (ou criar um bloco interno novo) direto do processo.",
+    "Consultar/Alterar processo: especificação, interessados, assuntos, observações e nível de acesso, com busca no SEI.",
+    "Gerar PDF ou ZIP do processo (todos, só alguns ou todos menos alguns documentos) e baixar.",
+    "Duplicar processo, Iniciar processo relacionado e Anexar processo (com aviso de que só o administrador desfaz).",
+    "Atualizar andamento, Comentários e Controle de prazo (data certa, dias úteis ou corridos, concluir).",
+    "Editor visual na minuta e no Editar documento: negrito, itálico, sublinhado, listas, tabela e os estilos de parágrafo do SEI; colar entra limpo; tabelas e imagens do documento ficam.",
+    "Dados do documento no SEI: interessados, destinatários, assuntos, observações, nome na árvore e número na minuta, e alterar esses dados em documento que já existe."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.4.3",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.4.3/SEI-GO-Setup-1.4.3.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.5.0",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.5.0/SEI-GO-Setup-1.5.0.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.4.3/SEI-GO-atualizacao-1.4.3.bin",
-  "pacote_sha256": "3b83dc5c98d477fcd870693372f68fd91ac31c31698ce7bc36eefd08d24f59a8",
-  "assinado_em": "2026-10-14T23:01:38Z",
-  "assinatura": "FQgl10rLn6Ar1xFSWyZyoFzkdiGsja8qwol71ONSpHfoOt1FVFScrHbs5TRtFIE8AAmxoFJLdhvKuM4ABwoOAA==",
-  "setup_sha256": "b86889b9067cd3c762f5a544a9e63da4e73bb6feff974515d3b8e40120219b30",
-  "assinatura_setup": "Duc28GlIGjYjdBsQP/EyfvqwmneYNVegUrteCi9wcEyU89bxxCh1He2RmFSFeWRenlYYZ9Qns1J0wuIBsQA0Cw==",
-  "expira_em": "2027-01-12T23:01:39Z",
-  "assinatura_validade": "4HyOghVaLvJCpPBop6AQOlLgZStQ30/3AfMZkA89NjiigidyU11jxTl0tpIlItppimWrBFLggNDfIr3QCHJIAw=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.5.0/SEI-GO-atualizacao-1.5.0.bin",
+  "pacote_sha256": "7b3a45186cbca3bdf5bbb0dd3ebdd289b1ebf215e61d7fb6086c452e77c2fe30",
+  "assinado_em": "2026-11-03T14:25:50Z",
+  "assinatura": "dazE0WPBP0N0cwqU3mbTl69W/4IcTv897kvaHjbeqfYu5/n2I0ta5wTzqoz3mMQpDk8GVQjIRSi7RKM9MT2iAg==",
+  "setup_sha256": "6c804ea63db45e7bf3626aa4aee346eb5cf9af5457d3d1a271863b3fa2a54bce",
+  "assinatura_setup": "YwOo5EfvEzY9nNpzlsrTawGwyc3tCPIW9n+QxF1SEPCF5CwouxgM7WVnL/yOhTQj4kOF96C38c593tHNj2NbAw==",
+  "expira_em": "2027-02-01T14:25:50Z",
+  "assinatura_validade": "TPRrg8APtnHL3i8hSCpDQtD920AkDjN7MFxnQRuDH6xJCfGv4newDVaDz6Kjs7OhlBe6RpiOainEdKTMDPk5CQ=="
 }
