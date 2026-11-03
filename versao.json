@@ -1,26 +1,23 @@
 {
-  "versao": "1.5.0",
+  "versao": "1.5.1",
   "data": "2026-11-03",
-  "titulo": "Processo mais limpo, botões do SEI nos menus e editor visual",
+  "titulo": "E-mail pelo SEI e correções vistas no SEI real",
   "novidades": [
-    "Topo do processo mais limpo: botões de IA e cinco menus (Documento, Tramitar, Organizar, Blocos, Processo); unidades, marcador, anotação, acompanhamento e último andamento viram selos, e Detalhes abre o resto.",
-    "Incluir em bloco interno, de reunião ou de assinatura (ou criar um bloco interno novo) direto do processo.",
-    "Consultar/Alterar processo: especificação, interessados, assuntos, observações e nível de acesso, com busca no SEI.",
-    "Gerar PDF ou ZIP do processo (todos, só alguns ou todos menos alguns documentos) e baixar.",
-    "Duplicar processo, Iniciar processo relacionado e Anexar processo (com aviso de que só o administrador desfaz).",
-    "Atualizar andamento, Comentários e Controle de prazo (data certa, dias úteis ou corridos, concluir).",
-    "Editor visual na minuta e no Editar documento: negrito, itálico, sublinhado, listas, tabela e os estilos de parágrafo do SEI; colar entra limpo; tabelas e imagens do documento ficam.",
-    "Dados do documento no SEI: interessados, destinatários, assuntos, observações, nome na árvore e número na minuta, e alterar esses dados em documento que já existe."
+    "Enviar correspondência eletrônica (menu Tramitar): remetente da unidade, destinatários digitados ou sugeridos pelo SEI, cópia oculta, assunto, texto padrão, documentos do processo como anexo e nível de acesso. Sempre pede confirmação e o SEI registra o e-mail no processo.",
+    "Topo do processo numa linha só: PROCESSO, o número e o tipo lado a lado.",
+    "Correção: Consultar/Alterar processo dava \"Nenhum assunto informado\" quando os assuntos não eram mexidos; agora os assuntos e interessados que ficam são enviados como o SEI espera.",
+    "Correção: Duplicar processo e Iniciar processo relacionado agora mostram o número do processo novo (o SEI responde de jeitos diferentes em cada um).",
+    "Iniciar processo relacionado ganhou o campo Assuntos, para os tipos em que o SEI não sugere nenhum."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.5.0",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.5.0/SEI-GO-Setup-1.5.0.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.5.1",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.5.1/SEI-GO-Setup-1.5.1.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.5.0/SEI-GO-atualizacao-1.5.0.bin",
-  "pacote_sha256": "7b3a45186cbca3bdf5bbb0dd3ebdd289b1ebf215e61d7fb6086c452e77c2fe30",
-  "assinado_em": "2026-11-03T14:25:50Z",
-  "assinatura": "dazE0WPBP0N0cwqU3mbTl69W/4IcTv897kvaHjbeqfYu5/n2I0ta5wTzqoz3mMQpDk8GVQjIRSi7RKM9MT2iAg==",
-  "setup_sha256": "6c804ea63db45e7bf3626aa4aee346eb5cf9af5457d3d1a271863b3fa2a54bce",
-  "assinatura_setup": "YwOo5EfvEzY9nNpzlsrTawGwyc3tCPIW9n+QxF1SEPCF5CwouxgM7WVnL/yOhTQj4kOF96C38c593tHNj2NbAw==",
-  "expira_em": "2027-02-01T14:25:50Z",
-  "assinatura_validade": "TPRrg8APtnHL3i8hSCpDQtD920AkDjN7MFxnQRuDH6xJCfGv4newDVaDz6Kjs7OhlBe6RpiOainEdKTMDPk5CQ=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.5.1/SEI-GO-atualizacao-1.5.1.bin",
+  "pacote_sha256": "39000fa316d474994c8dfc809afc6ed0919cbb31055732e259bab812a009e02e",
+  "assinado_em": "2026-11-03T18:29:44Z",
+  "assinatura": "z2XDRo8PEktvW8fkvwhbilLGmxGhiyOapeSFR/MXRS1bjXbT1jibRpGSI+H0VG585utXw3mGryrG+cDHQzreCQ==",
+  "setup_sha256": "d71f1227c5ac51118d08c218f235e12cbd1dc2ea6a68fe41340c63c391fd7b0a",
+  "assinatura_setup": "5KZUk8VFQQWGnQFOJvXQRI+aNMqk0gRjJ7t/E6fQJu2P+UsrXI6OoFzsmnm1/AEq7qaUXO33YPft9FFrAx/hBQ==",
+  "expira_em": "2027-02-01T18:29:44Z",
+  "assinatura_validade": "wlutmzBokZfl7oI8u+sVdoYwl18Hom2/av1TdLg2CogUrIwe3pIuq8/SS79ifWsLtznWCi6l4Bn10AdJXhnfDQ=="
 }
