@@ -6,27 +6,24 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.5.1
+## Baixar a versão mais nova: 1.5.2
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.5.1.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.1/SEI-GO-Setup-1.5.1.exe) | Instalador (já traz o Python) | 38 MB |
-| [SEI-GO-Manual-1.5.1.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.1/SEI-GO-Manual-1.5.1.pdf) | Manual do usuário, passo a passo com telas | 8 MB |
-| [SEI-GO-Manual-Tecnico-1.5.1.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.1/SEI-GO-Manual-Tecnico-1.5.1.pdf) | Manual técnico, para a TI | 1 MB |
+| [**SEI-GO-Setup-1.5.2.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.2/SEI-GO-Setup-1.5.2.exe) | Instalador (já traz o Python) | 38 MB |
+| [SEI-GO-Manual-1.5.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.2/SEI-GO-Manual-1.5.2.pdf) | Manual do usuário, passo a passo com telas | 8 MB |
+| [SEI-GO-Manual-Tecnico-1.5.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.2/SEI-GO-Manual-Tecnico-1.5.2.pdf) | Manual técnico, para a TI | 1 MB |
 
-**Novidades da 1.5.1 — E-mail pelo SEI e correções vistas no SEI real**
+**Novidades da 1.5.2 — Correção: caixa com todos os processos e ordem dos documentos**
 
-- Enviar correspondência eletrônica (menu Tramitar): remetente da unidade, destinatários digitados ou sugeridos pelo SEI, cópia oculta, assunto, texto padrão, documentos do processo como anexo e nível de acesso. Sempre pede confirmação e o SEI registra o e-mail no processo.
-- Topo do processo numa linha só: PROCESSO, o número e o tipo lado a lado.
-- Correção: Consultar/Alterar processo dava "Nenhum assunto informado" quando os assuntos não eram mexidos; agora os assuntos e interessados que ficam são enviados como o SEI espera.
-- Correção: Duplicar processo e Iniciar processo relacionado agora mostram o número do processo novo (o SEI responde de jeitos diferentes em cada um).
-- Iniciar processo relacionado ganhou o campo Assuntos, para os tipos em que o SEI não sugere nenhum.
+- Correção: a caixa mostrava no máximo 30 processos. O SEI mudou a forma de mostrar as páginas e o painel parava na primeira; agora lê todas (caixa, início, resumo do dia e avisos).
+- Lista de documentos do processo: escolha se o mais recente fica no topo (como era) ou o mais antigo, como na árvore do SEI. A escolha fica guardada.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.5.1.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.5.2.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -56,7 +53,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.5.1.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.5.2.exe -Algorithm SHA256`).
 
 ---
 
