@@ -1,21 +1,22 @@
 {
-  "versao": "1.6.1",
+  "versao": "1.6.2",
   "data": "2026-11-04",
-  "titulo": "Unidade geradora dos documentos e aviso de documento sem acesso",
+  "titulo": "Plano operacional, tabelas no SEI e conferência automática da minuta",
   "novidades": [
-    "Lista de documentos do processo mostra a unidade que gerou cada documento (passe o mouse para ver o nome completo).",
-    "Correção: em processo restrito de outra unidade, abrir um documento dava \"unknown url type\". O SEI não libera o conteúdo para a sua unidade; agora o painel mostra \"sem acesso\" na lista e explica o motivo, sem tentar abrir.",
-    "Documentos assinados aparecem como assinados também nos processos de outras unidades."
+    "Skill nova Plano operacional: plano setorial, plano de ação e ordem de operação com seções numeradas, só as atribuições pedidas, cronograma e indicadores em tabela e todo prazo com a data escrita.",
+    "Tabelas: escreva uma linha por linha da tabela com as células entre barras (| Data | Atividade |) e o SEI recebe uma tabela de verdade. Ao editar, a tabela volta como texto e continua tabela ao gravar.",
+    "Conferência automática em toda minuta da IA: marca por preencher, prazo sem data (\"na data indicada\"), @nome_interessado@, seção repetida ou pulada, remissão a item que não existe, documento dirigido à própria unidade e tipo pedido diferente do escolhido.",
+    "As skills de redação, redação oficial e revisor aprenderam essas lições, e a IA procura a data no documento citado antes de deixar um campo em branco."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.6.1",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.6.1/SEI-GO-Setup-1.6.1.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.6.2",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.6.2/SEI-GO-Setup-1.6.2.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.6.1/SEI-GO-atualizacao-1.6.1.bin",
-  "pacote_sha256": "385e3ebc13539492543ee85a45e61fd6b11aa303d50b28f1afb6711baf563cf2",
-  "assinado_em": "2026-11-04T20:33:22Z",
-  "assinatura": "FbhWmT4XV7cChzL06adaRPLufd35TyMswxDcQMVrEPMoeNc9XqphrUlVZkxi3SACc5EvH0ZHa4dRT3dZez45Cw==",
-  "setup_sha256": "9db24513b9accc72c847de3be759319665a55401b0748037fcd47d83c5d26e52",
-  "assinatura_setup": "bs8Ib57RgZZSdK62wBBHu7e02zT3o9dJWHopVHoIXS971bGOnGtAxUS4Ta+k5NynjeznGEvMxMc+fepLfztdAw==",
-  "expira_em": "2027-02-02T20:33:22Z",
-  "assinatura_validade": "EkRFaPLOBomZ2lQ2FPTVOZEWRHemagA3WeM2IkrZSbZi+/ocBCa10mpLp7VCKzZQNGOR1XXPtYxEs2dm4w2nDQ=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.6.2/SEI-GO-atualizacao-1.6.2.bin",
+  "pacote_sha256": "6ff9cccd1fb9b97146597c045692dc6182a0f3ffb541f490dfaa8313a8f55492",
+  "assinado_em": "2026-11-04T21:27:46Z",
+  "assinatura": "NMbNRmL1nKgAc8dVkwFPfocqbc2gvOWDxmm/Cwyq8dTO0qCDuMmvPrloqEbUQjKcE/VOOoAQNdTl2B9/sAnaAQ==",
+  "setup_sha256": "e2ba774ec80abc946c665b604a8a1476a229357a596256d70e86a5e7ec7990c5",
+  "assinatura_setup": "OIA2VR59E58qD4t8+hJ6ZYL6STiDo5rxv2qoyrHFJv5nXFjVeA1Ksc30ieCYpuCiaDt8LfzJGGJxxx7oxeymDw==",
+  "expira_em": "2027-02-02T21:27:47Z",
+  "assinatura_validade": "EzLL6Qgs7nU3CeGx6Uxmu9hJs2QIgSaymulR0VscirXSVKWPUNd0HO1HM6e5zNTSAyyDR6JqwwMlIQTuUFJ5DA=="
 }
