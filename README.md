@@ -6,24 +6,25 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.5.2
+## Baixar a versão mais nova: 1.5.3
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.5.2.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.2/SEI-GO-Setup-1.5.2.exe) | Instalador (já traz o Python) | 38 MB |
-| [SEI-GO-Manual-1.5.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.2/SEI-GO-Manual-1.5.2.pdf) | Manual do usuário, passo a passo com telas | 8 MB |
-| [SEI-GO-Manual-Tecnico-1.5.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.2/SEI-GO-Manual-Tecnico-1.5.2.pdf) | Manual técnico, para a TI | 1 MB |
+| [**SEI-GO-Setup-1.5.3.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.3/SEI-GO-Setup-1.5.3.exe) | Instalador (já traz o Python) | 38 MB |
+| [SEI-GO-Manual-1.5.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.3/SEI-GO-Manual-1.5.3.pdf) | Manual do usuário, passo a passo com telas | 8 MB |
+| [SEI-GO-Manual-Tecnico-1.5.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.5.3/SEI-GO-Manual-Tecnico-1.5.3.pdf) | Manual técnico, para a TI | 1 MB |
 
-**Novidades da 1.5.2 — Correção: caixa com todos os processos e ordem dos documentos**
+**Novidades da 1.5.3 — Peças do processo ao lado do que você edita e assistente discreto**
 
-- Correção: a caixa mostrava no máximo 30 processos. O SEI mudou a forma de mostrar as páginas e o painel parava na primeira; agora lê todas (caixa, início, resumo do dia e avisos).
-- Lista de documentos do processo: escolha se o mais recente fica no topo (como era) ou o mais antigo, como na árvore do SEI. A escolha fica guardada.
+- Ver peças do processo no Editar documento e no Redigir com IA: uma janela que dá para arrastar e redimensionar, pôr lado a lado (fixa à direita, sem cobrir o que você edita) ou abrir numa janela separada do navegador, até em outro monitor.
+- Assistente mais discreto: só o ícone (o nome aparece ao passar o mouse), dá para arrastar para qualquer lugar e o botão – leva ele para a borda da tela. O lugar fica guardado.
+- As instruções para a resposta não passam mais de um processo para outro: são limpas ao trocar de processo e depois de gravar no SEI (com Recuperar, se foi engano).
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.5.2.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.5.3.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -53,7 +54,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.5.2.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.5.3.exe -Algorithm SHA256`).
 
 ---
 
