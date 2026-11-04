@@ -1,22 +1,21 @@
 {
-  "versao": "1.6.0",
+  "versao": "1.6.1",
   "data": "2026-11-04",
-  "titulo": "SEI-GO para outros estados e conferência de compatibilidade",
+  "titulo": "Unidade geradora dos documentos e aviso de documento sem acesso",
   "novidades": [
-    "Compatibilidade do SEI (Sistema): confere, só lendo, se o SEI-GO funciona com o SEI deste computador. Sem login olha a tela de entrada; com login lê a caixa, abre um processo e um documento e abre sem enviar os formulários. Dá o percentual e o que falta.",
-    "O relatório sai mascarado (sem documentos, nomes, CPF, números de processo ou unidades) para mandar ao responsável pelo SEI-GO, que o importa e analisa com Claude, Codex ou as duas.",
-    "Edições: o mesmo SEI-GO para o SEI de outro estado, com endereço, instituição, feriados e canal de atualização próprios. A edição piloto (Pernambuco) é só de leitura até cada gravação ser conferida lá.",
-    "Nada muda para quem usa o SEI de Goiás: é a edição padrão, com as mesmas funções."
+    "Lista de documentos do processo mostra a unidade que gerou cada documento (passe o mouse para ver o nome completo).",
+    "Correção: em processo restrito de outra unidade, abrir um documento dava \"unknown url type\". O SEI não libera o conteúdo para a sua unidade; agora o painel mostra \"sem acesso\" na lista e explica o motivo, sem tentar abrir.",
+    "Documentos assinados aparecem como assinados também nos processos de outras unidades."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.6.0",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.6.0/SEI-GO-Setup-1.6.0.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.6.1",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.6.1/SEI-GO-Setup-1.6.1.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.6.0/SEI-GO-atualizacao-1.6.0.bin",
-  "pacote_sha256": "a54c3eab52c50b85db1a30cb861b26f68fb21ca53008613df987cf207900eaa0",
-  "assinado_em": "2026-11-04T20:10:00Z",
-  "assinatura": "7Jw8zWh6Q2UShbuUW6YRHs2347n3fhLkytrfPF6tXAf/dF9CrpDQGiR8Gl4P/onz8DQf0MQK4i4bY5LUFYPTBA==",
-  "setup_sha256": "e365798ce792c15e8642934d0ecb181a62e5e5d726a80eaf6bda69ce26a2b0ce",
-  "assinatura_setup": "g8+jfKqsERMYezc9etd2vshkmZuDTN60/D8RoChVq45OEKs3lMwQnz7pucJ7jtrrYZzW6weOQT1wTd6Z2uEmDg==",
-  "expira_em": "2027-02-02T20:10:01Z",
-  "assinatura_validade": "KM0WN1zm/KMyL8mjRgFbrJgE4wsHyXhdlwLUjBQ32s5CqcWfP2DIvWfglmxqJlcXKY6I8rNjRph2Emm9qv5PAg=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.6.1/SEI-GO-atualizacao-1.6.1.bin",
+  "pacote_sha256": "385e3ebc13539492543ee85a45e61fd6b11aa303d50b28f1afb6711baf563cf2",
+  "assinado_em": "2026-11-04T20:33:22Z",
+  "assinatura": "FbhWmT4XV7cChzL06adaRPLufd35TyMswxDcQMVrEPMoeNc9XqphrUlVZkxi3SACc5EvH0ZHa4dRT3dZez45Cw==",
+  "setup_sha256": "9db24513b9accc72c847de3be759319665a55401b0748037fcd47d83c5d26e52",
+  "assinatura_setup": "bs8Ib57RgZZSdK62wBBHu7e02zT3o9dJWHopVHoIXS971bGOnGtAxUS4Ta+k5NynjeznGEvMxMc+fepLfztdAw==",
+  "expira_em": "2027-02-02T20:33:22Z",
+  "assinatura_validade": "EkRFaPLOBomZ2lQ2FPTVOZEWRHemagA3WeM2IkrZSbZi+/ocBCa10mpLp7VCKzZQNGOR1XXPtYxEs2dm4w2nDQ=="
 }
