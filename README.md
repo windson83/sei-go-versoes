@@ -6,26 +6,25 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.6.0
+## Baixar a versão mais nova: 1.6.1
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.6.0.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.6.0/SEI-GO-Setup-1.6.0.exe) | Instalador (já traz o Python) | 38 MB |
-| [SEI-GO-Manual-1.6.0.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.6.0/SEI-GO-Manual-1.6.0.pdf) | Manual do usuário, passo a passo com telas | 8 MB |
-| [SEI-GO-Manual-Tecnico-1.6.0.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.6.0/SEI-GO-Manual-Tecnico-1.6.0.pdf) | Manual técnico, para a TI | 1 MB |
+| [**SEI-GO-Setup-1.6.1.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.6.1/SEI-GO-Setup-1.6.1.exe) | Instalador (já traz o Python) | 38 MB |
+| [SEI-GO-Manual-1.6.1.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.6.1/SEI-GO-Manual-1.6.1.pdf) | Manual do usuário, passo a passo com telas | 8 MB |
+| [SEI-GO-Manual-Tecnico-1.6.1.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.6.1/SEI-GO-Manual-Tecnico-1.6.1.pdf) | Manual técnico, para a TI | 1 MB |
 
-**Novidades da 1.6.0 — SEI-GO para outros estados e conferência de compatibilidade**
+**Novidades da 1.6.1 — Unidade geradora dos documentos e aviso de documento sem acesso**
 
-- Compatibilidade do SEI (Sistema): confere, só lendo, se o SEI-GO funciona com o SEI deste computador. Sem login olha a tela de entrada; com login lê a caixa, abre um processo e um documento e abre sem enviar os formulários. Dá o percentual e o que falta.
-- O relatório sai mascarado (sem documentos, nomes, CPF, números de processo ou unidades) para mandar ao responsável pelo SEI-GO, que o importa e analisa com Claude, Codex ou as duas.
-- Edições: o mesmo SEI-GO para o SEI de outro estado, com endereço, instituição, feriados e canal de atualização próprios. A edição piloto (Pernambuco) é só de leitura até cada gravação ser conferida lá.
-- Nada muda para quem usa o SEI de Goiás: é a edição padrão, com as mesmas funções.
+- Lista de documentos do processo mostra a unidade que gerou cada documento (passe o mouse para ver o nome completo).
+- Correção: em processo restrito de outra unidade, abrir um documento dava "unknown url type". O SEI não libera o conteúdo para a sua unidade; agora o painel mostra "sem acesso" na lista e explica o motivo, sem tentar abrir.
+- Documentos assinados aparecem como assinados também nos processos de outras unidades.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.6.0.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.6.1.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -55,7 +54,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.6.0.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.6.1.exe -Algorithm SHA256`).
 
 ---
 
