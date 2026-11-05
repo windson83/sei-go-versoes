@@ -1,22 +1,24 @@
 {
-  "versao": "1.6.2",
-  "data": "2026-11-04",
-  "titulo": "Plano operacional, tabelas no SEI e conferência automática da minuta",
+  "versao": "1.7.0",
+  "data": "2026-11-05",
+  "titulo": "Modo Qualidade: a IA lê o processo inteiro e confere na fonte",
   "novidades": [
-    "Skill nova Plano operacional: plano setorial, plano de ação e ordem de operação com seções numeradas, só as atribuições pedidas, cronograma e indicadores em tabela e todo prazo com a data escrita.",
-    "Tabelas: escreva uma linha por linha da tabela com as células entre barras (| Data | Atividade |) e o SEI recebe uma tabela de verdade. Ao editar, a tabela volta como texto e continua tabela ao gravar.",
-    "Conferência automática em toda minuta da IA: marca por preencher, prazo sem data (\"na data indicada\"), @nome_interessado@, seção repetida ou pulada, remissão a item que não existe, documento dirigido à própria unidade e tipo pedido diferente do escolhido.",
-    "As skills de redação, redação oficial e revisor aprenderam essas lições, e a IA procura a data no documento citado antes de deixar um campo em branco."
+    "Redigir com IA e Analisar agora leem o processo inteiro: o SEI-GO monta uma pasta com um arquivo por documento (texto completo, unidade que gerou, quem assinou) e a IA abre, procura e relê o que precisa, como num assistente de escritório.",
+    "Depois de escrever, um revisor abre de novo cada fonte e confere datas, números, nomes e itens citados. A lista \"Onde a IA conferiu\" fica embaixo da minuta.",
+    "Documento sem acesso, sigiloso ou citado de outro processo aparece em \"Não foram lidos\". Se o pedido depende dele, a IA não entrega um texto cheio de lacunas: diz o que falta e como conseguir.",
+    "A IA só lê a pasta (não grava, não sai dela) e a pasta é apagada no fim. Usa Claude Code ou Codex; com outra IA, a minuta sai no modo Profunda (resumo), com aviso.",
+    "Tabelas dos documentos do SEI continuam tabela na leitura da IA. Despacho com \"Atenciosamente\" passa a ser apontado na conferência automática.",
+    "Banco de casos com processos reais da DTEL: toda versão que mexe na IA é medida antes de publicar e não pode piorar."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.6.2",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.6.2/SEI-GO-Setup-1.6.2.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.7.0",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.7.0/SEI-GO-Setup-1.7.0.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.6.2/SEI-GO-atualizacao-1.6.2.bin",
-  "pacote_sha256": "6ff9cccd1fb9b97146597c045692dc6182a0f3ffb541f490dfaa8313a8f55492",
-  "assinado_em": "2026-11-04T21:27:46Z",
-  "assinatura": "NMbNRmL1nKgAc8dVkwFPfocqbc2gvOWDxmm/Cwyq8dTO0qCDuMmvPrloqEbUQjKcE/VOOoAQNdTl2B9/sAnaAQ==",
-  "setup_sha256": "e2ba774ec80abc946c665b604a8a1476a229357a596256d70e86a5e7ec7990c5",
-  "assinatura_setup": "OIA2VR59E58qD4t8+hJ6ZYL6STiDo5rxv2qoyrHFJv5nXFjVeA1Ksc30ieCYpuCiaDt8LfzJGGJxxx7oxeymDw==",
-  "expira_em": "2027-02-02T21:27:47Z",
-  "assinatura_validade": "EzLL6Qgs7nU3CeGx6Uxmu9hJs2QIgSaymulR0VscirXSVKWPUNd0HO1HM6e5zNTSAyyDR6JqwwMlIQTuUFJ5DA=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.7.0/SEI-GO-atualizacao-1.7.0.bin",
+  "pacote_sha256": "946449959f833a15a008577ab6b819bc84c181386d662334eae4ee0fc5181f28",
+  "assinado_em": "2026-11-05T14:59:22Z",
+  "assinatura": "D04LENRIFgEC55CVq5CVFeeAmt9+bhTPmbe7nA2lx26EubwI8xDnuUNIEh/q+bnl3+Xd1S3KViLFa1+Y6QFNAQ==",
+  "setup_sha256": "242affb2302f49bb22084f54144d58079aef930f66e0ce7549d92f099a5f7960",
+  "assinatura_setup": "wLMf9B+5opEbmXrvxWJmpYju+IRjlFHRo8kVAL4Yqf2pNay1KIodAw/9Rnu6IC7Bwqrir7kF1P4AakX8QyNWCg==",
+  "expira_em": "2027-02-03T14:59:22Z",
+  "assinatura_validade": "5ZdBcR/DK2/lhciIBkOMvWJh/+ewFm2sKWZxvSqhBfk37zufPSoayYNUD2G7Rky+EmeRT/ZyDkaSec8lD4srCA=="
 }
