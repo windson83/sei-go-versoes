@@ -1,20 +1,22 @@
 {
-  "versao": "1.8.1",
+  "versao": "1.8.2",
   "data": "2026-11-06",
-  "titulo": "A IA lê as pastas de trabalho inteiras",
+  "titulo": "Pesquisa: filtros com a sugestão do SEI e \"Onde aparece\"",
   "novidades": [
-    "No Modo Qualidade, a pasta de trabalho (contrato, TR, aditivos, normas e modelos) entra inteira na pasta que a IA lê, com índice: ela procura e abre cada arquivo como faz com o processo, em vez de ver só os trechos achados pela busca. Os trechos continuam como ponto de partida.",
-    "A sua pasta original nunca é alterada; o texto passa pela proteção de dados pessoais e a cópia é apagada no fim. Arquivo grande demais fica só com os trechos, com aviso."
+    "Unidade geradora, assinado por, gerado por, interessado e assunto sugerem enquanto você digita, com a mesma lista do SEI. Clique no nome certo e ele vai para o SEI como está, sem risco de pegar outra pessoa ou unidade.",
+    "Botão Eu em \"Assinado por\" e \"Gerado por\": usa o seu usuário do SEI. As datas abrem um calendário, e os valores ficam no formato 1.234,56.",
+    "Busca por palavra procura em documentos: cada resultado mostra o documento e o nº SEI, agrupado por processo, com a palavra marcada no trecho.",
+    "Botão Onde aparece: abre o texto do documento com cada ocorrência marcada, a página (em PDF), a lista dos trechos e Próxima/Anterior. Abrir no processo leva direto ao documento."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.8.1",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.8.1/SEI-GO-Setup-1.8.1.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.8.2",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.8.2/SEI-GO-Setup-1.8.2.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.8.1/SEI-GO-atualizacao-1.8.1.bin",
-  "pacote_sha256": "5070d200851b6b1b6f935f4e3e8467340516a008d4c23a78dc7e3ad80e5f1968",
-  "assinado_em": "2026-11-06T15:05:24Z",
-  "assinatura": "GnnpsYtEyTkbNzz35eq9watLcruH8CUp7jaJwju9pWufN6zKGB6ZcQ9LYLyv07AtzOZDSB2uANi5IVOuJ7SdAg==",
-  "setup_sha256": "5b821e0fd624203dd8801a7d780365ed3fbd2aeb80f08bbfac19011526f02645",
-  "assinatura_setup": "PT9p9vn6V4EWKBgpFQDOox/QerQkefLTTyJozBpZdiPBjIPoYoCP6WF7+d2LaDd2/voI0Tx/RrSDHfxREwWICQ==",
-  "expira_em": "2027-02-04T15:05:24Z",
-  "assinatura_validade": "WI7li27ihDFzfDapsTkWSGWq/csXM0feqowhfrhF2LD0SlNW8NVGXgEW6DRqA6tCG738AGutFLWMKBxfKMMTCw=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.8.2/SEI-GO-atualizacao-1.8.2.bin",
+  "pacote_sha256": "89eb0f490468863426c4a360f8189cc32490abb637b88112be7ca0c2a4193a8f",
+  "assinado_em": "2026-11-06T15:46:41Z",
+  "assinatura": "M2SRZt0aETztfA7sTsAk4lX7Wbl23ItUnD7N330kSodmjH60ScIJ7LIC9xTaS/vqQLGOyaScPriBFgWChRf1BA==",
+  "setup_sha256": "bdfa0700d9f8e1950c1c3c34dc7db202c1c60f901a40c0f7c22f16e35e789c4c",
+  "assinatura_setup": "be1MyqkSdf6rkjyk1FAURk25s7Dr+Y4Suu2VsnfkaowSu4TaaTjCo28APy4KHZn5A13ZAADbTJIQH58Jk1ooAQ==",
+  "expira_em": "2027-02-04T15:46:41Z",
+  "assinatura_validade": "4xxWttDgcxt737hePn2qiKGmiV9muZdvMyjIJMi5smadyNZqjvv9QNPMt+ovsbzNgFuqK5UYW6qNjTZ5QnYmDA=="
 }
