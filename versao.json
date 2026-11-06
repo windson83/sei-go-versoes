@@ -1,24 +1,23 @@
 {
-  "versao": "1.7.0",
-  "data": "2026-11-05",
-  "titulo": "Modo Qualidade: a IA lê o processo inteiro e confere na fonte",
+  "versao": "1.8.0",
+  "data": "2026-11-06",
+  "titulo": "Pesquisa em todo o SEI, pedida em português",
   "novidades": [
-    "Redigir com IA e Analisar agora leem o processo inteiro: o SEI-GO monta uma pasta com um arquivo por documento (texto completo, unidade que gerou, quem assinou) e a IA abre, procura e relê o que precisa, como num assistente de escritório.",
-    "Depois de escrever, um revisor abre de novo cada fonte e confere datas, números, nomes e itens citados. A lista \"Onde a IA conferiu\" fica embaixo da minuta.",
-    "Documento sem acesso, sigiloso ou citado de outro processo aparece em \"Não foram lidos\". Se o pedido depende dele, a IA não entrega um texto cheio de lacunas: diz o que falta e como conseguir.",
-    "A IA só lê a pasta (não grava, não sai dela) e a pasta é apagada no fim. Usa Claude Code ou Codex; com outra IA, a minuta sai no modo Profunda (resumo), com aviso.",
-    "Tabelas dos documentos do SEI continuam tabela na leitura da IA. Despacho com \"Atenciosamente\" passa a ser apontado na conferência automática.",
-    "Banco de casos com processos reais da DTEL: toda versão que mexe na IA é medida antes de publicar e não pode piorar."
+    "Menu Pesquisa: procura processos e documentos em todo o SEI, com os filtros da tela Pesquisa do SEI: palavra, nº SEI, tipo, número do documento, unidade geradora, quem assinou, quem gerou, interessado, período, valor, só o seu órgão e tramitou na sua unidade.",
+    "Escreva como falaria: \"processo com a palavra celular que tramitou aqui e que eu assinei em outubro\". O painel mostra como entendeu e preenche os filtros, que você pode mudar.",
+    "Entender o pedido sem IA (na hora) ou com a IA que você escolher, que entende frases mais livres e pode ampliar a palavra com sinônimos.",
+    "Resultado com o processo, o documento e o nº SEI, o trecho onde a palavra aparece, a unidade e a data, 10 por página; também o que está na caixa e no cérebro local. Nome com mais de um resultado no SEI aparece para você escolher.",
+    "A busca do topo agora aceita qualquer coisa: número de processo abre direto; o resto vai para a Pesquisa. O assistente também pesquisa (\"acha o ofício 70138\") e a ferramenta sei_pesquisar das IAs ganhou os mesmos filtros."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.7.0",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.7.0/SEI-GO-Setup-1.7.0.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.8.0",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.8.0/SEI-GO-Setup-1.8.0.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.7.0/SEI-GO-atualizacao-1.7.0.bin",
-  "pacote_sha256": "946449959f833a15a008577ab6b819bc84c181386d662334eae4ee0fc5181f28",
-  "assinado_em": "2026-11-05T14:59:22Z",
-  "assinatura": "D04LENRIFgEC55CVq5CVFeeAmt9+bhTPmbe7nA2lx26EubwI8xDnuUNIEh/q+bnl3+Xd1S3KViLFa1+Y6QFNAQ==",
-  "setup_sha256": "242affb2302f49bb22084f54144d58079aef930f66e0ce7549d92f099a5f7960",
-  "assinatura_setup": "wLMf9B+5opEbmXrvxWJmpYju+IRjlFHRo8kVAL4Yqf2pNay1KIodAw/9Rnu6IC7Bwqrir7kF1P4AakX8QyNWCg==",
-  "expira_em": "2027-02-03T14:59:22Z",
-  "assinatura_validade": "5ZdBcR/DK2/lhciIBkOMvWJh/+ewFm2sKWZxvSqhBfk37zufPSoayYNUD2G7Rky+EmeRT/ZyDkaSec8lD4srCA=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.8.0/SEI-GO-atualizacao-1.8.0.bin",
+  "pacote_sha256": "6e03610ed1a2b9e891feb35517db723afce68368ed724323824236a9a5ba196b",
+  "assinado_em": "2026-11-06T14:13:18Z",
+  "assinatura": "L/psQqt4RyAnXJ1yT0dNDP82tQSHW4Ehy7s3k1rqOwTGRONzh2hz2IHTa+O3Svl5y4AfGpI2NoXwUlVkVLESBw==",
+  "setup_sha256": "90fc6615d80ce2cc47d9c250a0fabdc0b696594ea51e6c2ecf84e7ea87dac1f7",
+  "assinatura_setup": "XcW8Kc5taF7+p21DlPdWW5U8izcLEENz23CiJgu3XHhNwtaD582uB4y4ADdsBtJWdub52UXIZxv2iV5ERnKaAg==",
+  "expira_em": "2027-02-04T14:13:19Z",
+  "assinatura_validade": "USJFAlmqWmCiSFDloe28CO4YZtrAgDGWytNsTAlbVC8TIrpv8s6hXucGMdTcDj1ZMlTi95wyplXM+iHQyGOWAg=="
 }
