@@ -1,22 +1,23 @@
 {
-  "versao": "1.8.3",
-  "data": "2026-11-06",
-  "titulo": "Texto pronto editado antes de gravar e editor solto",
+  "versao": "1.9.0",
+  "data": "2026-11-24",
+  "titulo": "Disposição do SEI: menus, Controle de Processos e processo",
   "novidades": [
-    "Texto padrão ou favorito vai primeiro para o editor (Editar antes de gravar, ou dois cliques), com negrito, alíneas e tabela como no SEI. Do favorito vem só o corpo, sem timbre, número antigo nem assinatura.",
-    "Trechos a completar ficam em amarelo, com uma lista para ir até cada um: XX, Nº sem número, (00) 0000 0000, ( ), [ ], ____ e data que não é a de hoje. Gravar com algum ainda marcado pede confirmação.",
-    "Criar sem editar continua existindo; depois de criar ou gravar, o botão Editar abre o documento novo direto, sem procurar no processo.",
-    "O Editar documento agora também fica no centro, flutuante, lado a lado (junto das Peças do processo) ou numa janela separada, levando o que já foi digitado."
+    "O painel abre no Controle de Processos, como o SEI. O menu começa com os itens na ordem do SEI (Controle de Prazos, Painel de Controle, Controle de Processos, Iniciar Processo, Pesquisa, Textos Padrão, Favoritos, Bloco de Assinatura…); depois vêm o SEI-GO e o Sistema.",
+    "Pesquisar no menu: digite parte do nome e Enter. Na barra de cima, atalhos como os do SEI: Controle de Processos, Painel de Controle, Sobre, Configuração e Manual.",
+    "Controle de Processos com a barra de ícones do SEI (enviar, andamento, atribuir, bloco, sobrestar, concluir, anotação, acompanhamento, documento, marcador, prazo, ciência) e a tabela com marcar, sinais, número em vermelho quando não visualizado, atribuição, tipo e interessados.",
+    "Visualização resumida ou detalhada, Configurar detalhe, Ver atribuídos a mim, por marcadores, por tipo e por prioridade; ordenar pela coluna.",
+    "No processo aberto, a barra de ícones do SEI na mesma ordem; os ícones do documento ficam em cima da peça. Nada foi tirado: as mesmas ações, as mesmas confirmações e as cores do SEI-GO."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.8.3",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.8.3/SEI-GO-Setup-1.8.3.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.9.0",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.0/SEI-GO-Setup-1.9.0.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.8.3/SEI-GO-atualizacao-1.8.3.bin",
-  "pacote_sha256": "0b631aa97a1f37c4b5cbf45833567a628fb1f9bad18f1aad9f584db05b316107",
-  "assinado_em": "2026-11-06T17:33:22Z",
-  "assinatura": "p9aEtu1cBlIA++cMRSlJ6d6ykeWCAtL2EI064x7Ji/n2cbCCPC4/hM0MzpYZp3ielq07g9WvxE8OcwbkphDqDw==",
-  "setup_sha256": "fa2c1b29d4fd2b7665a015b5c5554afe720ecd73e4c3f126819e23557b92cc1a",
-  "assinatura_setup": "0pOJG5hSqGCMNkp1MqPE5gA5r/JQkCucezOJhW4Y6JtN8NTGq9wH2keEzBGUxkXOKHgWfJ+OZ58h/UZmX6mSAA==",
-  "expira_em": "2027-02-04T17:33:22Z",
-  "assinatura_validade": "F3dIMjP437gaJNBjp6ZY0nBbMeBaI5BnlXqBS3vSFtcMkGZLZzMq4Q2eqhZNHC99pqXqLdNHuxlqeRJQuSShCA=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.0/SEI-GO-atualizacao-1.9.0.bin",
+  "pacote_sha256": "b8eb91b08731bc5f45f615feea553a74f7b65d03a6ccbf5f4816ef6df41ab015",
+  "assinado_em": "2026-11-24T16:16:34Z",
+  "assinatura": "cVWTL5H5uHAHoUHmpDLhNL8x39jTyql8va5hslufJA6Uu6WJE0sv2hU/1dlee/aZp6QlZG377GLptGefHLTgCg==",
+  "setup_sha256": "12c5e56e50f548c605d6174fd2caf0e95b3b49bd4e77d54304d98f5f5c1c4f0e",
+  "assinatura_setup": "1aTO3KlfAxyCev66rY5EVieNCNWSubB3QJwaJnqD5lgz1FxAMj2DEWFHk5i+fPnwkiBQWK1xSj0nXTtxfxCwCg==",
+  "expira_em": "2027-02-22T16:16:34Z",
+  "assinatura_validade": "TBi9YmdVZycjQlRqOmjclsZCGn2erb8s4hkHJ1eDABDbVqzVezvVSIzRky/BquOLzqcnQwvD/U8iAH6wQFalDA=="
 }
