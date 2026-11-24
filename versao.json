@@ -1,23 +1,20 @@
 {
-  "versao": "1.9.0",
+  "versao": "1.9.1",
   "data": "2026-11-24",
-  "titulo": "Disposição do SEI: menus, Controle de Processos e processo",
+  "titulo": "Sua força: o brasão e o nome da sua instituição",
   "novidades": [
-    "O painel abre no Controle de Processos, como o SEI. O menu começa com os itens na ordem do SEI (Controle de Prazos, Painel de Controle, Controle de Processos, Iniciar Processo, Pesquisa, Textos Padrão, Favoritos, Bloco de Assinatura…); depois vêm o SEI-GO e o Sistema.",
-    "Pesquisar no menu: digite parte do nome e Enter. Na barra de cima, atalhos como os do SEI: Controle de Processos, Painel de Controle, Sobre, Configuração e Manual.",
-    "Controle de Processos com a barra de ícones do SEI (enviar, andamento, atribuir, bloco, sobrestar, concluir, anotação, acompanhamento, documento, marcador, prazo, ciência) e a tabela com marcar, sinais, número em vermelho quando não visualizado, atribuição, tipo e interessados.",
-    "Visualização resumida ou detalhada, Configurar detalhe, Ver atribuídos a mim, por marcadores, por tipo e por prioridade; ordenar pela coluna.",
-    "No processo aberto, a barra de ícones do SEI na mesma ordem; os ícones do documento ficam em cima da peça. Nada foi tirado: as mesmas ações, as mesmas confirmações e as cores do SEI-GO."
+    "Em Configuração → Sua força, escolha Polícia Civil, Secretaria de Segurança Pública, Polícia Penal, Polícia Militar ou Corpo de Bombeiros Militar, todas de Goiás.",
+    "O brasão e o nome da força aparecem no alto do painel, no manual e nos relatórios em PDF. Polícia Civil e Polícia Penal já vêm com o brasão; nas outras aparece um emblema com a sigla até a imagem oficial ser carregada (PNG ou JPG)."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.9.0",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.0/SEI-GO-Setup-1.9.0.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.9.1",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.1/SEI-GO-Setup-1.9.1.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.0/SEI-GO-atualizacao-1.9.0.bin",
-  "pacote_sha256": "b8eb91b08731bc5f45f615feea553a74f7b65d03a6ccbf5f4816ef6df41ab015",
-  "assinado_em": "2026-11-24T16:16:34Z",
-  "assinatura": "cVWTL5H5uHAHoUHmpDLhNL8x39jTyql8va5hslufJA6Uu6WJE0sv2hU/1dlee/aZp6QlZG377GLptGefHLTgCg==",
-  "setup_sha256": "12c5e56e50f548c605d6174fd2caf0e95b3b49bd4e77d54304d98f5f5c1c4f0e",
-  "assinatura_setup": "1aTO3KlfAxyCev66rY5EVieNCNWSubB3QJwaJnqD5lgz1FxAMj2DEWFHk5i+fPnwkiBQWK1xSj0nXTtxfxCwCg==",
-  "expira_em": "2027-02-22T16:16:34Z",
-  "assinatura_validade": "TBi9YmdVZycjQlRqOmjclsZCGn2erb8s4hkHJ1eDABDbVqzVezvVSIzRky/BquOLzqcnQwvD/U8iAH6wQFalDA=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.1/SEI-GO-atualizacao-1.9.1.bin",
+  "pacote_sha256": "55e2438a9fac8bbb1b439a526814f7a75a44d6fc146e844859dddf91f08a3f94",
+  "assinado_em": "2026-11-24T17:12:26Z",
+  "assinatura": "2k5JKc3oFpzYUGNaoPFA1eXbsXkHATae+t+FsqL5WX4klA/lnzG07QxMA6PwpkXEx6KNNGmOCr8mAESzDRSJDQ==",
+  "setup_sha256": "0f525d2d13a1e7d7d9684b7685e6157dd249ccf4d44d0d385547cae0df5482b0",
+  "assinatura_setup": "rUeRGqiNVxv9KPNTdH786JOeJXJmCAkWbvpV7WP6gLESpxFWfwzZpMnzpAR3CmDYdxAMNoHMCiPg/Zou8xSGBw==",
+  "expira_em": "2027-02-22T17:12:26Z",
+  "assinatura_validade": "R9hLeD4niqwALTusEbeuWbhYIGwlETPwkrjtm5HUqToAZCja40C9RSamqNKrwaBYtFeY7kER3GC2QLqG6vleCQ=="
 }
