@@ -6,25 +6,25 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.9.2
+## Baixar a versão mais nova: 1.9.3
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.9.2.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.2/SEI-GO-Setup-1.9.2.exe) | Instalador (já traz o Python) | 40 MB |
-| [SEI-GO-Manual-1.9.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.2/SEI-GO-Manual-1.9.2.pdf) | Manual do usuário, passo a passo com telas | 9 MB |
-| [SEI-GO-Manual-Tecnico-1.9.2.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.2/SEI-GO-Manual-Tecnico-1.9.2.pdf) | Manual técnico, para a TI | 1 MB |
+| [**SEI-GO-Setup-1.9.3.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.3/SEI-GO-Setup-1.9.3.exe) | Instalador (já traz o Python) | 41 MB |
+| [SEI-GO-Manual-1.9.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.3/SEI-GO-Manual-1.9.3.pdf) | Manual do usuário, passo a passo com telas | 9 MB |
+| [SEI-GO-Manual-Tecnico-1.9.3.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.3/SEI-GO-Manual-Tecnico-1.9.3.pdf) | Manual técnico, para a TI | 1 MB |
 
-**Novidades da 1.9.2 — Cores e brasão da sua força, reconhecidos ao entrar**
+**Novidades da 1.9.3 — Imagens à vista e barra do processo conforme a sua unidade**
 
-- Todas as forças com o brasão oficial: Polícia Civil, Segurança Pública, Polícia Penal, Polícia Militar e Bombeiros de Goiás.
-- O painel ganha as cores da força: azul e dourado da SSP, amarelo e preto da Polícia Penal, verde e amarelo da PM, vermelho e laranja dos Bombeiros. Quem preferir fica com as cores padrão do SEI-GO (preto e dourado).
-- Ao entrar no SEI, o SEI-GO reconhece a força pela unidade (DGPC, SSP, Polícia Penal, PM, CBM) e já aplica brasão e cores. Órgão não reconhecido fica com o padrão da Polícia Civil. Dá para escolher à mão na Configuração.
+- Documento que é imagem (foto, print, digitalização em JPG/PNG) agora aparece na tela do documento: ajustar à tela ou tamanho real, girar, abrir em outra aba e baixar.
+- Processo que não está aberto na sua unidade: a barra de ícones mostra só o que o SEI permite assim (consultar, PDF/ZIP, anotação, acompanhamento…), com um aviso explicando.
+- Se o processo já passou pela sua unidade e foi concluído aqui, aparece Reabrir (o mesmo do SEI, com confirmação). Depois de reaberto, todos os ícones voltam.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.9.2.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.9.3.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -54,7 +54,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.9.2.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.9.3.exe -Algorithm SHA256`).
 
 ---
 
