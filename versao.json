@@ -1,22 +1,22 @@
 {
-  "versao": "1.9.4",
+  "versao": "1.9.5",
   "data": "2026-11-25",
-  "titulo": "Acompanhamento Especial por grupo, sem ir ao SEI",
+  "titulo": "Acompanhamento Especial completo, No radar no menu e aviso de novidade",
   "novidades": [
-    "Na aba Acompanhamento Especial (Gestão), as estatísticas continuam e agora há Processos por grupo: escolha o grupo (Patrimônio, Certidões, Aparelhos…) como no SEI e veja os processos com observação, quem colocou e quando.",
-    "Procurar por número, tipo, observação ou pessoa dentro do grupo, baixar a planilha e clicar no processo para abrir. Clicar na barra de um grupo também filtra.",
-    "+ Novo grupo cria o grupo no Acompanhamento Especial da unidade (o mesmo Novo da tela Grupos do SEI, com confirmação). Também dá para criar na hora de colocar um processo no acompanhamento.",
-    "O antigo Acompanhar do painel virou Pôr no radar (ícone de radar, filtro No radar): é a sua lista do SEI-GO para ver se o processo se mexeu e não se confunde mais com o Acompanhamento Especial do SEI."
+    "Acompanhamento Especial em tela própria (menu SEI), com abas Processos por grupo, Grupos e Estatística. A Gestão não repete mais essa aba.",
+    "Tudo do SEI nessa tela: alterar grupo e observação (o lápis), tirar do acompanhamento (a lixeira), mudar o grupo de vários de uma vez, renomear e excluir grupo. Sempre com confirmação.",
+    "No radar ganhou item próprio no grupo SEI-GO do menu: a sua lista, com os processos que têm novidade primeiro.",
+    "● novidade ao lado do número: documento novo ou assinado desde a última vez que você abriu o processo no painel (passe o mouse para ver quais). No Controle de Processos, No radar e Acompanhamento Especial."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.9.4",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.4/SEI-GO-Setup-1.9.4.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.9.5",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.5/SEI-GO-Setup-1.9.5.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.4/SEI-GO-atualizacao-1.9.4.bin",
-  "pacote_sha256": "8a26412fe58bb44795986521ec19eecd852356b5c3de1bc243259edf5beb1cc3",
-  "assinado_em": "2026-11-25T13:29:10Z",
-  "assinatura": "EbcnM67Js5bZr5ZqdjPf7WvUYhGVn+XEuYpec8KuPhAa45kCavVB0OcKugTIWm+zwJyRyi8FT6TErOjtF2PJCA==",
-  "setup_sha256": "f8ed1fee210d06f7a5fce57307bb062222618b2d5e2ed5af16eb048625ad3aec",
-  "assinatura_setup": "NAoi7hm1yCXome3mt7It2lAqGCHIhCbxH0OXnDiim4IiluzbOKcgkmk5SzixfJDc9IAtnEnWrnrr0WP7Tsc3DQ==",
-  "expira_em": "2027-02-23T13:29:10Z",
-  "assinatura_validade": "lZLq4Vl3hhttSCOg9BXx3Nez/OLSFe9X/y64I+JdRZRSJWO+kGExgeBDLENGOH+yELMBVrAh3ohNmWABfR+cCw=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.5/SEI-GO-atualizacao-1.9.5.bin",
+  "pacote_sha256": "3c02fc8d2658d5aa841f77677c62323753455cd670c24c7046f06befea36472b",
+  "assinado_em": "2026-11-25T15:01:52Z",
+  "assinatura": "G0ZPmp5wPh2/HZeSpHYj4leI/WUq2KeTDkgafs5/zcnCCG7UTriOovAvOlC2P2n7GYjgkBJKZyjQ6vOvSC/uBQ==",
+  "setup_sha256": "3fe593a9af977ff138f4654c82be2a4b828f83ec170de1c048dbfe0cbb04eeaa",
+  "assinatura_setup": "SI/8lTV50IAq+8jIy79pFVF64B3k76zQ0uRwy9+Qx/Id0nmLFxoS58tcd5GaVSCkzB/y3H5Z7feXw8uL5avVAA==",
+  "expira_em": "2027-02-23T15:01:52Z",
+  "assinatura_validade": "io+POTxmMx1I9gNB5ifgxCbjlt+cJJNQqOo9DBYiugav3ejMjijAb01UfA4tmpYDUuKS7DoPGDQOYuj3xk1kAg=="
 }
