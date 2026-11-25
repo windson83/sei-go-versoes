@@ -1,21 +1,21 @@
 {
-  "versao": "1.9.7",
+  "versao": "1.9.8",
   "data": "2026-11-25",
-  "titulo": "Mais espaço para ler o documento",
+  "titulo": "A minuta fica no processo em que foi feita",
   "novidades": [
-    "No processo aberto, arraste a divisória entre a lista de documentos e o documento para dar mais espaço ao que você está lendo. O painel lembra a largura; duplo clique volta ao padrão.",
-    "⇤ Mais espaço recolhe a lista numa faixa estreita; ◀ ▶ (ou Alt+← e Alt+→) passam para o documento anterior ou o próximo; ⛶ Tela cheia mostra só o documento. A peça agora usa a altura da tela.",
-    "Gestão da unidade: o cartão \"com prazo atrasado\" abre os prazos vencidos (antes não ia a lugar nenhum) e o texto dos blocos sem assinatura leva ao Bloco de Assinatura. Entrar na Gestão pelo menu abre sempre na Visão geral."
+    "Responder outro processo começa com a tela limpa: a minuta que você fez e não gravou fica guardada no processo dela e volta quando você responder aquele processo de novo.",
+    "Minuta já gravada no SEI não é guardada: some ao trocar de processo. Em Redigir com IA, \"Minutas não gravadas\" mostra os processos com minuta guardada (clique para voltar) e Descartar esquece todas. Fica só na memória do painel.",
+    "Se a IA termina a minuta de um processo enquanto você já está em outro, ela não entra na tela: fica guardada no processo dela. Se o SEI criou o documento mas não gravou o texto, a minuta continua guardada."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.9.7",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.7/SEI-GO-Setup-1.9.7.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.9.8",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.8/SEI-GO-Setup-1.9.8.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.7/SEI-GO-atualizacao-1.9.7.bin",
-  "pacote_sha256": "5b8d2af0d06480d3fc3ba7db24157ee4062b0d61ef2eb431c24d039297142b3c",
-  "assinado_em": "2026-11-25T16:38:47Z",
-  "assinatura": "KTYGBeAq+LixJB0g9IJwhUi9Wb/NPiQmTRxsS6X+q+cJ1xZznfQbWHqkq5aDLr0bVJghlgEwX+/WQYktPTSBCg==",
-  "setup_sha256": "86c5487437bae9b591e4d8cf9caace403f412ee547956bf7d8292d865d98bf43",
-  "assinatura_setup": "jvldPOVeXzV2KFAvpZzCZzi269ZPya1wYhL5lgPNJutJfqDpKNmcYRO6s7sZ2RVQsqnMe5rH8QULQRbzojFVCA==",
-  "expira_em": "2027-02-23T16:38:47Z",
-  "assinatura_validade": "zUCse255vh833VFPlm+5MOmhAL9FYnRCkmAN4emus/6fQYAx1k8bdK8W3zwTArZbzqZ5hftuARXAdC7duN3WCQ=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.8/SEI-GO-atualizacao-1.9.8.bin",
+  "pacote_sha256": "b2b083c7ea65e35deeb159497a3d243081732868e9b2dec30c20a9865770f15a",
+  "assinado_em": "2026-11-25T17:59:50Z",
+  "assinatura": "qIbi9YlHTzWr4vBQ82C9Uuc1kKOJc2O6oTL7liWKNZqxpCxd0d/2y7wyslzGaLWsTaXPRdErZ6PrbJ1/4HbrAA==",
+  "setup_sha256": "2408b5345823a0bf6d5425935b873745a7374ed9def448fcbe85fad543579829",
+  "assinatura_setup": "pOm3bNXgXyisOfu3JgS3JdM5j/YB8BGpID0h45iUqr7vdgt1TYb5HzjTXlNN/HPjbhZxR0WuWT6fICkke41FCg==",
+  "expira_em": "2027-02-23T17:59:50Z",
+  "assinatura_validade": "IKOUnrxxleKNUgzReoEfRd2GUmTYKCgzcFUXe1G7GfKsLi4aqKyrVjzUoasFk6V+6n9povAXovH4SevTu37cBg=="
 }
