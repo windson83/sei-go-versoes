@@ -6,24 +6,25 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.9.6
+## Baixar a versão mais nova: 1.9.7
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.9.6.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.6/SEI-GO-Setup-1.9.6.exe) | Instalador (já traz o Python) | 41 MB |
-| [SEI-GO-Manual-1.9.6.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.6/SEI-GO-Manual-1.9.6.pdf) | Manual do usuário, passo a passo com telas | 10 MB |
-| [SEI-GO-Manual-Tecnico-1.9.6.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.6/SEI-GO-Manual-Tecnico-1.9.6.pdf) | Manual técnico, para a TI | 1 MB |
+| [**SEI-GO-Setup-1.9.7.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.7/SEI-GO-Setup-1.9.7.exe) | Instalador (já traz o Python) | 41 MB |
+| [SEI-GO-Manual-1.9.7.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.7/SEI-GO-Manual-1.9.7.pdf) | Manual do usuário, passo a passo com telas | 10 MB |
+| [SEI-GO-Manual-Tecnico-1.9.7.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.7/SEI-GO-Manual-Tecnico-1.9.7.pdf) | Manual técnico, para a TI | 1 MB |
 
-**Novidades da 1.9.6 — Menu lateral todo colorido**
+**Novidades da 1.9.7 — Mais espaço para ler o documento**
 
-- Todos os itens do menu lateral ganharam ícone colorido, no mesmo padrão do grupo SEI e do No radar: Início, Redigir com IA, Gestão, Pastas, Cérebro, Resumos, Uso, Automação, Instalação, IAs, Skills, Configuração, Compatibilidade, Manual e Sobre.
-- Processo aberto ganhou ícone próprio (pasta aberta com documento) e não repete mais o de Textos Padrão. Com o menu recolhido, cada item é reconhecido pela cor.
+- No processo aberto, arraste a divisória entre a lista de documentos e o documento para dar mais espaço ao que você está lendo. O painel lembra a largura; duplo clique volta ao padrão.
+- ⇤ Mais espaço recolhe a lista numa faixa estreita; ◀ ▶ (ou Alt+← e Alt+→) passam para o documento anterior ou o próximo; ⛶ Tela cheia mostra só o documento. A peça agora usa a altura da tela.
+- Gestão da unidade: o cartão "com prazo atrasado" abre os prazos vencidos (antes não ia a lugar nenhum) e o texto dos blocos sem assinatura leva ao Bloco de Assinatura. Entrar na Gestão pelo menu abre sempre na Visão geral.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.9.6.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.9.7.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -53,7 +54,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.9.6.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.9.7.exe -Algorithm SHA256`).
 
 ---
 
