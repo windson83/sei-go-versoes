@@ -1,22 +1,20 @@
 {
-  "versao": "1.9.5",
+  "versao": "1.9.6",
   "data": "2026-11-25",
-  "titulo": "Acompanhamento Especial completo, No radar no menu e aviso de novidade",
+  "titulo": "Menu lateral todo colorido",
   "novidades": [
-    "Acompanhamento Especial em tela própria (menu SEI), com abas Processos por grupo, Grupos e Estatística. A Gestão não repete mais essa aba.",
-    "Tudo do SEI nessa tela: alterar grupo e observação (o lápis), tirar do acompanhamento (a lixeira), mudar o grupo de vários de uma vez, renomear e excluir grupo. Sempre com confirmação.",
-    "No radar ganhou item próprio no grupo SEI-GO do menu: a sua lista, com os processos que têm novidade primeiro.",
-    "● novidade ao lado do número: documento novo ou assinado desde a última vez que você abriu o processo no painel (passe o mouse para ver quais). No Controle de Processos, No radar e Acompanhamento Especial."
+    "Todos os itens do menu lateral ganharam ícone colorido, no mesmo padrão do grupo SEI e do No radar: Início, Redigir com IA, Gestão, Pastas, Cérebro, Resumos, Uso, Automação, Instalação, IAs, Skills, Configuração, Compatibilidade, Manual e Sobre.",
+    "Processo aberto ganhou ícone próprio (pasta aberta com documento) e não repete mais o de Textos Padrão. Com o menu recolhido, cada item é reconhecido pela cor."
   ],
-  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.9.5",
-  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.5/SEI-GO-Setup-1.9.5.exe",
+  "pagina": "https://github.com/windson83/sei-go-versoes/releases/tag/v1.9.6",
+  "setup": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.6/SEI-GO-Setup-1.9.6.exe",
   "minima": "",
-  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.5/SEI-GO-atualizacao-1.9.5.bin",
-  "pacote_sha256": "3c02fc8d2658d5aa841f77677c62323753455cd670c24c7046f06befea36472b",
-  "assinado_em": "2026-11-25T15:01:52Z",
-  "assinatura": "G0ZPmp5wPh2/HZeSpHYj4leI/WUq2KeTDkgafs5/zcnCCG7UTriOovAvOlC2P2n7GYjgkBJKZyjQ6vOvSC/uBQ==",
-  "setup_sha256": "3fe593a9af977ff138f4654c82be2a4b828f83ec170de1c048dbfe0cbb04eeaa",
-  "assinatura_setup": "SI/8lTV50IAq+8jIy79pFVF64B3k76zQ0uRwy9+Qx/Id0nmLFxoS58tcd5GaVSCkzB/y3H5Z7feXw8uL5avVAA==",
-  "expira_em": "2027-02-23T15:01:52Z",
-  "assinatura_validade": "io+POTxmMx1I9gNB5ifgxCbjlt+cJJNQqOo9DBYiugav3ejMjijAb01UfA4tmpYDUuKS7DoPGDQOYuj3xk1kAg=="
+  "pacote": "https://github.com/windson83/sei-go-versoes/releases/download/v1.9.6/SEI-GO-atualizacao-1.9.6.bin",
+  "pacote_sha256": "feeb5001267878c8dab12302e8ab6cd0c253f6e0d7a867d40dd2425812b64fe4",
+  "assinado_em": "2026-11-25T15:28:11Z",
+  "assinatura": "Lcb9me5QCRP1bm3jH27GU+qQ6aoAQeAynsd8bgjHckBaIPXtmRqsj6dgLCrT0cOYXa80e9thSkcW3PMmsId4Dg==",
+  "setup_sha256": "fa390ffdc1acc75920c10f426f0e529f59d6c75021602847e3ba40028da0c535",
+  "assinatura_setup": "NyGA/NRAj1WT6ARcKpiYq8IqKoxA4oOPjpj0VhRPPs9wQJvg+MDE4+CLoZUl/LsOmSXkKaKLGZaKD0IoAFVkDg==",
+  "expira_em": "2027-02-23T15:28:12Z",
+  "assinatura_validade": "LwJj3sZWECOsgKa7eGm0yhJ6DmttyfjODH9Jeyga/XmYH24j1wTYgrMoZzAGVIc3HA/Mv1TJQAfhPYvN7GX6Bw=="
 }
