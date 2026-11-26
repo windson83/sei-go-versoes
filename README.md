@@ -6,25 +6,24 @@ O SEI-GO é um painel no próprio computador que organiza a caixa do SEI, avisa 
 da unidade (produção, tempo parado, Acompanhamento Especial, prazos) e, se houver uma IA instalada, resume processos e
 rascunha peças. **A IA nunca assina, tramita ou exclui nada no SEI.**
 
-## Baixar a versão mais nova: 1.9.8
+## Baixar a versão mais nova: 1.9.9
 
 | Arquivo | Para quê | Tamanho |
 |---|---|---|
-| [**SEI-GO-Setup-1.9.8.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.8/SEI-GO-Setup-1.9.8.exe) | Instalador (já traz o Python) | 41 MB |
-| [SEI-GO-Manual-1.9.8.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.8/SEI-GO-Manual-1.9.8.pdf) | Manual do usuário, passo a passo com telas | 10 MB |
-| [SEI-GO-Manual-Tecnico-1.9.8.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.8/SEI-GO-Manual-Tecnico-1.9.8.pdf) | Manual técnico, para a TI | 1 MB |
+| [**SEI-GO-Setup-1.9.9.exe**](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.9/SEI-GO-Setup-1.9.9.exe) | Instalador (já traz o Python) | 41 MB |
+| [SEI-GO-Manual-1.9.9.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.9/SEI-GO-Manual-1.9.9.pdf) | Manual do usuário, passo a passo com telas | 10 MB |
+| [SEI-GO-Manual-Tecnico-1.9.9.pdf](https://github.com/windson83/sei-go-versoes/releases/download/v1.9.9/SEI-GO-Manual-Tecnico-1.9.9.pdf) | Manual técnico, para a TI | 1 MB |
 
-**Novidades da 1.9.8 — A minuta fica no processo em que foi feita**
+**Novidades da 1.9.9 — Imprimir e baixar o documento**
 
-- Responder outro processo começa com a tela limpa: a minuta que você fez e não gravou fica guardada no processo dela e volta quando você responder aquele processo de novo.
-- Minuta já gravada no SEI não é guardada: some ao trocar de processo. Em Redigir com IA, "Minutas não gravadas" mostra os processos com minuta guardada (clique para voltar) e Descartar esquece todas. Fica só na memória do painel.
-- Se a IA termina a minuta de um processo enquanto você já está em outro, ela não entra na tela: fica guardada no processo dela. Se o SEI criou o documento mas não gravou o texto, a minuta continua guardada.
+- No processo aberto, o documento na tela ganhou 🖨 Imprimir (sai como aparece em "Como no SEI": brasão, numeração e assinatura) e ⬇ Baixar.
+- Documento feito no SEI baixa em PDF (como no SEI) ou como página HTML; anexo (PDF, imagem, Word, planilha) baixa no arquivo original. O arquivo vem com o nome do documento.
 
 Todas as versões: [página de versões](https://github.com/windson83/sei-go-versoes/releases).
 
 ## Como instalar
 
-1. Baixe o **SEI-GO-Setup-1.9.8.exe** (link acima).
+1. Baixe o **SEI-GO-Setup-1.9.9.exe** (link acima).
 2. Dê dois cliques nele. Se o Windows avisar *"O Windows protegeu o computador"*, clique em **Mais informações** →
    **Executar assim mesmo**.
 3. Clique em **Avançar** até o fim. Se o computador não tiver o Python, o instalador coloca sozinho
@@ -54,7 +53,7 @@ O arquivo `SEI-GO-atualizacao-x.y.z.bin` de cada versão é o pacote da atualiza
 - O SEI-GO só se atualiza sozinho com pacote baixado desta página **e assinado digitalmente** pelo SEI-GO; se a
   instalação falhar, ele volta para a versão anterior. Nunca pede senha para atualizar.
 - Para conferir se o arquivo chegou íntegro, compare o hash SHA-256 com o `SHA256SUMS.txt` da versão
-  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.9.8.exe -Algorithm SHA256`).
+  (PowerShell: `Get-FileHash .\SEI-GO-Setup-1.9.9.exe -Algorithm SHA256`).
 
 ---
 
